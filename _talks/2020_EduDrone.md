@@ -1,20 +1,10 @@
 ---
 title: Social (Flying) Robots for Education. September 2020.
-
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-view: 2
-
+collection: talks
+type: "Talk"
 event: EduDrone Conference 
 date: 2020-09-11
-
-# Optional header image (relative to `static/img/` folder).
-header:
-  caption: ""
-  image: "amld.jpg"
-
+image: "amld.jpg"
 location: online
 ---
 
