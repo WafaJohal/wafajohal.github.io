@@ -1,12 +1,8 @@
 ---
 title: Astana, Kazakhstan, January 2019
 
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-view: 2
-
+collection: talks
+type: "Talk"
 date: 2019-01-11
 
 

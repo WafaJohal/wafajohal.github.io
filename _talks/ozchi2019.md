@@ -2,11 +2,8 @@
 title: 'TIP: Tangible e-Ink Paper Manipulatives  
 for Classroom Orchestration'
 
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-view: 2
+collection: talks
+type: "Talk"
 
 tags:
 - cellulo
@@ -18,10 +15,8 @@ projects: ["tip","cellulo"]
 
 date: 2019-12-04
 event: 'OzCHI 2019, Fremantle, WA, Australia'
-# Optional header image (relative to `static/img/` folder).
-header:
-  caption: ""
-  image: "talks/ozchi2019.jpg"
+
+image: "talks/ozchi2019.jpg"
 
 links:
 - icon: graduation-cap

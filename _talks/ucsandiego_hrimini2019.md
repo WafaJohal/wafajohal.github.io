@@ -1,11 +1,8 @@
 ---
 title: UC San Diego, California, USA, November 2019
 
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-view: 2
+collection: talks
+type: "Talk"
 
 date: 2019-11-22
 event: 'HRI Mini Symposium 2019' 
@@ -16,10 +13,7 @@ tags:
 - robots4learning
 - cellulo
   
-# Optional header image (relative to `static/img/` folder).
-header:
-  caption: ""
-  image: "talks/ucsd.jpg"
+image: "talks/ucsd.jpg"
 
 
 
