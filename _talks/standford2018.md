@@ -1,0 +1,17 @@
+---
+title: Standford, November 2018
+
+# View.
+#   1 = List
+#   2 = Compact
+#   3 = Card
+view: 2
+
+date: 2018-11-17
+
+# Optional header image (relative to `static/img/` folder).
+header:
+  caption: ""
+  image: "standford2018.jpg"
+---
+Visiting Lukasc Kidnzinski at Stanford, I gave a talk on our paper on diagnosis of disgraphia using RF applied to a series of novel features based on pen's postion, pressure and tilt. 
