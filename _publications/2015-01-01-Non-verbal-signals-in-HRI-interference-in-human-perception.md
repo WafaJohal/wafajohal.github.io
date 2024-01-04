@@ -1,9 +1,9 @@
 ---
-title: "Non-verbal signals in HRI: interference in human perception"
+title: "Non-verbal Signals in HRI: Interference in Human Perception"
 collection: publications
-permalink: /publication/2015-01-01-Non-verbal-signals-in-HRI-interference-in-human-perception
+permalink: /publication/2015-01-01-Non-verbal-Signals-in-HRI-Interference-in-Human-Perception
 date: 2015-01-01
-venue: 'In the proceedings of Social Robotics: 7th International Conference, ICSR 2015, Paris, France, October 26-30, 2015, Proceedings 7'
-citation: ' Wafa Johal,  Ga{\&quot;e}lle Calvary,  Sylvie Pesty, &quot;Non-verbal signals in HRI: interference in human perception.&quot; In the proceedings of Social Robotics: 7th International Conference, ICSR 2015, Paris, France, October 26-30, 2015, Proceedings 7, 2015.'
+venue: 'In the proceedings of International Conference on Social Robotics'
+citation: ' Wafa Johal,  Ga{\&quot;e}lle Calvary,  Sylvie Pesty, &quot;Non-verbal Signals in HRI: Interference in Human Perception.&quot; In the proceedings of International Conference on Social Robotics, 2015.'
 ---
-Use [Google Scholar](https://scholar.google.com/scholar?q=Non+verbal+signals+in+HRI:+interference+in+human+perception){:target="_blank"} for full citation
+Use [Google Scholar](https://scholar.google.com/scholar?q=Non+verbal+Signals+in+HRI:+Interference+in+Human+Perception){:target="_blank"} for full citation
