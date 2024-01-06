@@ -5,5 +5,4 @@ permalink: /publication/2015-01-01-A-cognitive-and-affective-architecture-for-so
 date: 2015-01-01
 venue: 'In the proceedings of Proceedings of the Tenth Annual ACM/IEEE International Conference on Human-Robot Interaction Extended Abstracts'
 citation: ' Wafa Johal,  Damien Pellier,  Carole Adam,  Humbert Fiorino,  Sylvie Pesty, &quot;A cognitive and affective architecture for social human-robot interaction.&quot; In the proceedings of Proceedings of the Tenth Annual ACM/IEEE International Conference on Human-Robot Interaction Extended Abstracts, 2015.'
----
-Use [Google Scholar](https://scholar.google.com/scholar?q=A+cognitive+and+affective+architecture+for+social+human+robot+interaction){:target="_blank"} for full citation
+---**Abstract** 

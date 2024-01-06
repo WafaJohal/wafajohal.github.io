@@ -5,5 +5,4 @@ permalink: /publication/2014-01-01-Acceptability-of-a-companion-robot-for-childr
 date: 2014-01-01
 venue: 'In the proceedings of 2014 5th IEEE Conference on Cognitive Infocommunications (CogInfoCom)'
 citation: ' Wafa Johal,  Carole Adam,  Humbert Fiorino,  Sylvie Pesty,  C{\&apos;e}line Jost,  Dominique Duhaut, &quot;Acceptability of a companion robot for children in daily life situations.&quot; In the proceedings of 2014 5th IEEE Conference on Cognitive Infocommunications (CogInfoCom), 2014.'
----
-Use [Google Scholar](https://scholar.google.com/scholar?q=Acceptability+of+a+companion+robot+for+children+in+daily+life+situations){:target="_blank"} for full citation
+---**Abstract** 

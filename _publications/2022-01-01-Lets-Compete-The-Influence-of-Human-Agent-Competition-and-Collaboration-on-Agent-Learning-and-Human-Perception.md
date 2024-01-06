@@ -5,5 +5,4 @@ permalink: /publication/2022-01-01-Lets-Compete-The-Influence-of-Human-Agent-Com
 date: 2022-01-01
 venue: 'In the proceedings of Proceedings of the 10th International Conference on Human-Agent Interaction'
 citation: ' Ornnalin Phaijit,  Claude Sammut,  Wafa Johal, &quot;Let’s Compete! The Influence of Human-Agent Competition and Collaboration on Agent Learning and Human Perception.&quot; In the proceedings of Proceedings of the 10th International Conference on Human-Agent Interaction, 2022.'
----
-Use [Google Scholar](https://scholar.google.com/scholar?q=Let’s+Compete!+The+Influence+of+Human+Agent+Competition+and+Collaboration+on+Agent+Learning+and+Human+Perception){:target="_blank"} for full citation
+---**Abstract** 

@@ -5,5 +5,4 @@ permalink: /publication/2017-01-01-Haptic-enabled-handheld-mobile-robots-Design-
 date: 2017-01-01
 venue: 'In the proceedings of Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems'
 citation: ' Ayberk {\&quot;O}zg{\&quot;u}r,  Wafa Johal,  Francesco Mondada,  Pierre Dillenbourg, &quot;Haptic-enabled handheld mobile robots: Design and analysis.&quot; In the proceedings of Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems, 2017.'
----
-Use [Google Scholar](https://scholar.google.com/scholar?q=Haptic+enabled+handheld+mobile+robots:+Design+and+analysis){:target="_blank"} for full citation
+---**Abstract** 

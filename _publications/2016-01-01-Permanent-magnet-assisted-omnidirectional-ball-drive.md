@@ -5,5 +5,4 @@ permalink: /publication/2016-01-01-Permanent-magnet-assisted-omnidirectional-bal
 date: 2016-01-01
 venue: 'In the proceedings of 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)'
 citation: ' Ayberk {\&quot;O}zg{\&quot;u}r,  Wafa Johal,  Pierre Dillenbourg, &quot;Permanent magnet-assisted omnidirectional ball drive.&quot; In the proceedings of 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2016.'
----
-Use [Google Scholar](https://scholar.google.com/scholar?q=Permanent+magnet+assisted+omnidirectional+ball+drive){:target="_blank"} for full citation
+---**Abstract** 
