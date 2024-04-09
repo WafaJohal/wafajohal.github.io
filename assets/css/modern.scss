@@ -1,0 +1,32 @@
+// modern-professional.scss
+$font-body: 'Helvetica Neue', Arial, sans-serif;
+$font-headings: 'Arial', sans-serif;
+$text-color: #4a4a4a;
+$background-color: #fff;
+$link-color: #007bff;
+$link-hover-color: #0056b3;
+
+body {
+    font-family: $font-body;
+    color: $text-color;
+    background-color: $background-color;
+    line-height: 1.8;
+}
+
+h1, h2, h3 {
+    font-family: $font-headings;
+    color: #333;
+}
+
+a {
+    color: $link-color;
+    &:hover {
+        color: $link-hover-color;
+    }
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+}

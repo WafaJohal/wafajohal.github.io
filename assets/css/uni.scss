@@ -1,0 +1,32 @@
+// university-inspired.scss
+$font-body: 'Arial', sans-serif;
+$font-headings: 'Verdana', sans-serif;
+$primary-color: #00274c; // University primary color
+$secondary-color: #4d72aa; // University secondary color
+$text-color: #333;
+$background-color: #e7e7e7;
+
+body {
+    font-family: $font-body;
+    color: $text-color;
+    background-color: $background-color;
+    line-height: 1.7;
+}
+
+h1, h2, h3 {
+    font-family: $font-headings;
+    color: $primary-color;
+}
+
+a {
+    color: $secondary-color;
+    &:hover {
+        color: darken($secondary-color, 15%);
+    }
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 25px;
+}
