@@ -1,7 +1,7 @@
 ---
 title: 'Animatas'
 excerpt: "<img width='400px' src='/images/projects/animatas.png'> <br><br> Advancing intuitive human-machine interaction with human-like social capabilities for education in schools"
-collection: portfolio
+collection: pastportfolio
 ---
 Animatas is a H2020 MCS International Training Network involving 8 insitutions from Europe and several international partners (amoong which UNSW).
 The goal of the project is to investigate social learning and embodiement of autonomous agents in learning contexts.
