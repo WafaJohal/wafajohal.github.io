@@ -14,3 +14,10 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
+{% for post in site.portfolio %}
+  {% if post.collection == 'pastportfolio' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+
