@@ -9,6 +9,5 @@ location: online
 ---
 
 
-{% comment %}
+
 {{< gdocs  src="https://docs.google.com/presentation/d/e/2PACX-1vQ01VhR7_mmKu26bLyZNljEbgiYHXJ4EB_2piY3gJ8QdbbtSwmPaZ2FkO4JiLnfnw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">}}
-{% endcomment %}
