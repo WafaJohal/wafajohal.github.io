@@ -7,12 +7,11 @@ author_profile: true
 
 {% include base_path %}
 
-
-{% for post in site.portfolio %}
-  {% if post.collection == 'portfolio' %}
+{% if post.collection == 'portfolio' %}
+  {% for post in site.portfolio %}
     {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+  {% endfor %}
+{% endif %}
 
 {% for post in site.portfolio %}
   {% if post.collection == 'pastportfolio' %}
