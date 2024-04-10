@@ -1,47 +1,7 @@
 ---
 title: Cellulo
-summary:  Tangible Haptic-Enabled Swarm for Learners
-tags:
-- cellulo
-- tangible robot
-- swarm
-- haptic
-- visible
-date: "2016-04-27T00:00:00Z"
-
-# Optional external URL for project (replaces project detail page).
-#external_link: https://chili.epfl.ch/page-92073-en-html/robotics/cellulo/
-
-links:
-- icon: user
-  icon_pack: fas
-  name: Ayberk Ozgur
-  url: https://ayberkozgur.com
-
-- icon: user
-  icon_pack: fas
-  name: Hala Khodr
-  url: https://people.epfl.ch/hala.khodr?lang=en
-
-- icon: user
-  icon_pack: fas
-  name: Arzu Guneysu
-  url: https://people.epfl.ch/arzu.guneysu?lang=en
-
-- icon: user
-  icon_pack: fas
-  name: Francesco Mondada
-  url: https://people.epfl.ch/francesco.mondada?lang=en
-
-- icon: user
-  icon_pack: fas
-  name: Pierre Dillenbourg
-  url: https://people.epfl.ch/pierre.dillenbourg?lang=en
-
-
-image:
-  caption: Photo by Dinesh Dillenbourg
-  focal_point: Smart
+excerpt:  Tangible Haptic-Enabled Swarm for Learners
+collection: portfolio
 ---
 
 With the Cellulo project, a part of the Educational Grand Challenge of the NCCR Robotics, we introduced a
@@ -57,7 +17,7 @@ During four years, we developed several learning activities using the robots. In
 the Wind activity, the learners were taught that the wind was formed by air moving from with high to low
 pressure points.
 
-{{< youtube zv6nDMQCWCo >}}
+
 
 In the Cellulo project, we  started to explore the use of haptic feedback for learners. Haptic feedback enables us to
 render forces, but also borders, angles, or points. We developed a series of haptic capabilities and small interaction
@@ -72,11 +32,5 @@ optimal, and a challenge would be to use the swarm robots to analyses and regula
 learners. As these shared resource can be intelligent agents, they could rearrange themselves according to the
 collaborative state of the group.
 
-{{< youtube g_7glQmTIVo >}}
 
-{{< youtube s3KAoQNUPZs >}}
-
-
-Finally, we have been exploring the use of Cellulo robots for upper arm-rehabitation with the goal to develop a kit for occupational theraputic games. 
-
-{{< youtube f-7lrzXFtr0 >}}
+Finally, we have been exploring the use of Cellulo robots for upper arm-rehabitation with the goal to develop a kit for occupational theraputic games.

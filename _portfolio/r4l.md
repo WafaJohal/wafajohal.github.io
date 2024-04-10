@@ -1,13 +1,7 @@
 ---
 title: Robots for Learning (R4L)
-summary: Understading the value of robots for leaners
-tags:
-- r4l
-date: "2016-04-27T00:00:00Z"
-
-# Optional external URL for project (replaces project detail page).
-
-
+excerpt: Understading the value of robots for leaners
+collection: portfolio
 ---
 
 With the increasing number of engineering jobs, politics have more recently turned towards introduction of
@@ -28,5 +22,4 @@ was a workshop, along with the RoMan 2016 conference. The event gathered 30 part
 world. The second event was a workshop along the HRI 2017 conference in Vienna, Austria, with 60 participants
 and 10 presentations. This fall, we hosted the first stand alone event, in Switzerland, for which we invited main
 actors of research in HRI for Learning. A new workshop is planned for HRI 2018. These workshops aim to
-mix scientists from field of robotics with those from digital education and learning technologies (See
-https://robot4learning.github.io/ ).
+mix scientists from field of robotics with those from digital education and learning technologies.
