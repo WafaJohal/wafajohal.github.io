@@ -184,12 +184,16 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  pastportfolio:
+    output: true
+    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
   posts:
     output: true
     permalink: /:collection/:path/
+
 
 
 # Defaults
