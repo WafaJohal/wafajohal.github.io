@@ -1,6 +1,6 @@
 ---
 title: Cellulo
-excerpt:   "<img width='400px' src='/images/projects/cellulo.png'> <br><br> Tangible Haptic-Enabled Swarm for Learners"
+excerpt:   "<img width='400px' src='/images/projects/cellulo.jpg'> <br><br> Tangible Haptic-Enabled Swarm for Learners"
 collection: portfolio
 ---
 
