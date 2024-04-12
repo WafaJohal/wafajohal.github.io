@@ -193,7 +193,7 @@ collections:
   posts:
     output: true
     permalink: /:collection/:path/
-  staff_members:
+  team:
     permalink: /:collection/:path/
     people: true
     sort_by: position
