@@ -2,7 +2,9 @@
     {% for item in site.team %}
       <div class="card">
         <a href="{{ site.baseurl }}{{ item.url }}">
+          <div class="image-cropper">
           <img class="card-img-top" src="{{ site.baseurl }}{{ item.image }}" alt="photo of {{ item.name }} " class="rounded">
+        </div>
           <div class="card-body">
             <h2 class="card-title">{{ item.name }}</h2>
             <p class="card-text">{{ item.job_title }}</p>

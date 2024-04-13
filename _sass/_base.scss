@@ -194,19 +194,24 @@ figure {
     margin-bottom: 1em;
   }
 
+  .image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
   img {
-    width: 100%;
+    display: inline;
+    margin: 0 auto;
+    width: auto;
+    height: 100%;
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
     transition: $global-transition;
   }
 
-  img.rounded {
-    object-fit: cover;
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-  }
 
   > a {
     display: block;
