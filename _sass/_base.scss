@@ -201,6 +201,13 @@ figure {
     transition: $global-transition;
   }
 
+  img.rounded {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+
   > a {
     display: block;
   }

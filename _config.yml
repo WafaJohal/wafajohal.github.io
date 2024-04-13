@@ -197,6 +197,16 @@ collections:
     permalink: /:collection/:path/
     people: true
     sort_by: position
+    output: true
+    order: 
+      - lina.md
+      - ulan.md
+      - sarah.md
+      - muhammad.md
+      - yan.md
+      - ramtin.md
+      - jian.md
+      - jiahe.md
 
 
 
