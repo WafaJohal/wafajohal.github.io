@@ -10,8 +10,6 @@ nav: true
 
 ## Publications
 
-For publications prior to 2020, see [DBLP](https://dblp.org/pid/144/5582.html). 
-
 <div class="publications">
 
 {%- for y in page.years %}
@@ -20,3 +18,5 @@ For publications prior to 2020, see [DBLP](https://dblp.org/pid/144/5582.html).
 {% endfor %}
 
 </div>
+
+For publications prior to 2020, see [DBLP](https://dblp.org/pid/144/5582.html). 
