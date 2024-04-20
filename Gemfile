@@ -22,7 +22,6 @@ group :jekyll_plugins do
   gem 'htmlcompressor'
   gem 'htmlbeautifier'
   gem 'jekyll-redirect-from'
-  gem 'jekyll-paginate'
   gem 'jekyll-gist'
   gem 'kramdown-parser-gfm'
 end
