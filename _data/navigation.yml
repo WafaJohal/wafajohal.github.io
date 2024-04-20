@@ -6,17 +6,17 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Team"
-    url: /team/
+ # - title: "Team"
+ #   url: /team/
 
-  - title: "Talks"
-    url: /talks/    
+ # - title: "Talks"
+ #   url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
+ # - title: "Teaching"
+#    url: /teaching/    
         
-  - title: "News"
-    url: /posts/
+#  - title: "News"
+#    url: /posts/
     
   - title: "CV"
     url: /cv/
