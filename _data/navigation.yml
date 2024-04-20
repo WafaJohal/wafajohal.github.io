@@ -6,8 +6,6 @@ main:
   - title: "Publications"
     url: /publications/
 
- # - title: "Team"
- #   url: /team/
 
  # - title: "Talks"
  #   url: /talks/    
@@ -21,5 +19,3 @@ main:
   - title: "CV"
     url: /cv/
     
-#  - title: "Team"
-#    url: /team/
