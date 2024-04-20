@@ -3,7 +3,7 @@
 
 <nav class="nav__list">
   {% if page.sidebar.title %}<header><h4 class="nav__title" style="padding: 0;">{{ page.sidebar.title }}</h4></header>{% endif %}
-  <ul>
+  <ol>
     {% for nav in navigation %}
       <li>
         {% if nav.url %}
@@ -20,7 +20,7 @@
         {% endif %}
 
         {% if nav.children != null %}
-        <ul>
+        <ol>
           {% for child in nav.children %}
             {% comment %}internal/external URL check{% endcomment %}
             {% if child.url contains "://" %}
@@ -38,9 +38,9 @@
 
             <li><a href="{{ domain }}{{ child.url }}" class="{{ active }}">{{ child.title }}</a></li>
           {% endfor %}
-        </ul>
+        </ol>
         {% endif %}
       </li>
     {% endfor %}
-  </ul>
+  </ol>
 </nav>
