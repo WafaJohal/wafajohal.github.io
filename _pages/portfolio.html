@@ -7,7 +7,7 @@ author_profile: true
 
 <h1> A test </h1>
 {% assign number_printed = 0 %}
-{% for post in site._portfolio %}
+{% for post in site.portfolio %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if post.highlight == 1 %}
