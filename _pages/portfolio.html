@@ -1,22 +1,41 @@
 ---
-layout: archive
+layout: gridlay
 title: "Research"
 permalink: /research/
 author_profile: true
 ---
 
-{% include base_path %}
-
+{% assign number_printed = 0 %}
 {% for post in site.portfolio %}
-  {% if post.collection == 'portfolio' %}
-    {% include archive-single.html %}
-  {% endif %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if post.highlight == 1 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+ <div class="well">
+  <pubtit>{{ post.title }}</pubtit>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/{{ post.image }}" class="img-responsive" width="33%" style="float: left" />
+  <p>{{ post.description }}</p>
+ </div>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endif %}
 {% endfor %}
 
-{% for post in site.portfolio %}
-  {% if post.collection == 'pastportfolio' %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
 
 
