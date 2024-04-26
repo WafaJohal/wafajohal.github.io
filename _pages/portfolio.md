@@ -9,6 +9,8 @@ author_profile: true
 
 {% for post in site.portfolio %}
 
+<p>{{ post.title  }}</p>
+
 {% if post.highlight == 1 %}
 
 <div class="row">
@@ -17,7 +19,7 @@ author_profile: true
 <div class="col-sm-6 clearfix">
  <div class="well">
   <pubtit>{{ post.title }}</pubtit>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/{{ post.image }}" class="img-responsive" width="33%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}{{ post.photo }}" class="img-responsive" width="33%" style="float: left" />
   <p>{{ post.description }}</p>
  </div>
 </div>
