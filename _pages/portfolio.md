@@ -6,15 +6,13 @@ author_profile: true
 ---
 
 <h1> A test </h1>
-{% assign number_printed = 0 %}
+
 {% for post in site.portfolio %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
 {% if post.highlight == 1 %}
 
-{% if even_odd == 0 %}
 <div class="row">
-{% endif %}
+
 
 <div class="col-sm-6 clearfix">
  <div class="well">
@@ -24,19 +22,7 @@ author_profile: true
  </div>
 </div>
 
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endif %}
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
 </div>
-{% endif %}
-
-
 
