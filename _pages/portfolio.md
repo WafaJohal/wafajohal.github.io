@@ -12,16 +12,18 @@ author_profile: true
 {% if post.highlight == 1 %}
 
 {% if even_odd == 0 %}
-<div class="row">
-{% endif %}
 
-<div class="col-sm-6 clearfix">
- <div class="well">
-  <pubtit>{{ post.title }}</pubtit>
-  <img src="{{ site.url }}{{ site.baseurl }}{{ post.photo }}" class="img-responsive" width="33%" style="float: left" />
-  <p>{{ post.description }}</p>
- </div>
-</div>
+    <div class="row">
+
+    {% endif %}
+
+    <div class="col-sm-6 clearfix">
+    <div class="well">
+    <pubtit>{{ post.title }}</pubtit>
+    <img src="{{ site.url }}{{ site.baseurl }}{{ post.photo }}" class="img-responsive" width="20%" style="float: left" />
+    <p>{{ post.description }}</p>
+    </div>
+    </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
 
