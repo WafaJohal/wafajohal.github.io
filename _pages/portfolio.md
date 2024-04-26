@@ -9,9 +9,11 @@ author_profile: true
 
 {% for post in site.portfolio %}
 
-<p>{{ post.title  }}</p>
+
 
 {% if post.highlight == 1 %}
+
+<p>{{ post.title  }}</p>
 
 <div class="row">
 
