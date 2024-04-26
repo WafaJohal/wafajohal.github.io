@@ -4,7 +4,7 @@ excerpt:  ARC DECRA Fellowship on Human-centred Robot Learning
 collection: portfolio
 highlight: 1
 photo: projects/animatas.png
-description: "This project is a 3-year endeavour funded by the Australian Research Council starting mid-2021. Under this umbrella, we are looking at hiring two PhD students in the Faculty of Engineering at the School of Computer Science. This project will make an extensive use of the National Facility for Human Robot Interaction Research."
+description: "This project is a 3-year endeavour funded by the Australian Research Council starting mid-2021. "
 ---
 
 Robots are foreseen to be used in a variety of home contexts and interacting with novice users, such as assisting the dependent elderly in daily housework (i.e., caring and unpacking groceries, fetching, and pouring a glass of water, etc). Enabling robots to adapt to their environment through learning context specific tasks would be necessary for them to be used adequately by non-programming users.  
