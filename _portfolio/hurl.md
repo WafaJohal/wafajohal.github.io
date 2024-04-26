@@ -3,6 +3,7 @@ title: HURL
 excerpt:  ARC DECRA Fellowship on Human-centred Robot Learning
 collection: portfolio
 highlight: 1
+photo: projects/animatas.png
 description: "This project is a 3-year endeavour funded by the Australian Research Council starting mid-2021. Under this umbrella, we are looking at hiring two PhD students in the Faculty of Engineering at the School of Computer Science. This project will make an extensive use of the National Facility for Human Robot Interaction Research."
 ---
 

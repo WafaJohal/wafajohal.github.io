@@ -9,8 +9,6 @@ author_profile: true
 
 {% for post in site.portfolio %}
 
-
-
 {% if post.highlight == 1 %}
 
 <p>{{ post.title  }}</p>
