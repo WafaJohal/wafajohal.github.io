@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <div class="projects">
-{% for project in site.projects %}
+{% for project in site.portfolio %}
     {% if project.link %}
         {% assign proj_url = project.link %}
     {% else %}
