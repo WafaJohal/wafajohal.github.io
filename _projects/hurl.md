@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: Human-Centered Robot Learning
 description: with background image
 img: assets/img/12.jpg
 importance: 1
@@ -10,8 +10,6 @@ related_publications: true
 
 
 Robots are foreseen to be used in a variety of home contexts and interacting with novice users, such as assisting the dependent elderly in daily housework (i.e., caring and unpacking groceries, fetching, and pouring a glass of water, etc). Enabling robots to adapt to their environment through learning context specific tasks would be necessary for them to be used adequately by non-programming users.  
-
-Several methods have been proposed to teach new skills to robots while keeping the human in the loop. Among these methods, the Reinforcement Learning (“RL”) approach is the most common one. However, the literature reports several issues with including human trainers in RL scenarios. Significant research reports a positive bias in RL rewards, and that human-generated reward signals change as the learning progress being inconsistent over time (the trainer adapts her strategy). This can be explained by the difficulty for human trainers to teach basic procedural motions. They generally tend to exaggerate their demonstrations or be more kind with time.  
 
 In education, a good instructor maintains a mental model of the learner’s state (what has been learned and what needs clarification). This helps the teacher to appropriately structure the upcoming learning tasks with timely feedback and guidance. The learner can help the instructor by expressing their internal state via communicative acts that reveal their understanding, confusion, and attention. Robot’s learning parameters, however, can be overwhelming for a novice user and may increase the human workload (by increasing inaccurate feedbacks, and hence decreasing the robot’s learning). The challenge lies on training humans to be efficient trainers and enabling them to plan, assess and manage the robot’s learning.  
 
@@ -44,9 +42,13 @@ Another noticeable issue is the disengagement of humans during the training task
     This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+ {% cite phaijit2023user %}.
+
+  {% cite phaijit2022let %}.
+
+
+    {% cite phaijit2022taxonomy %}.
+
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -60,10 +62,6 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
 {% raw %}
 
