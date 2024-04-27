@@ -10,4 +10,4 @@ toc:
   sidebar: left
 ---
 
-[Download a PDF copy](/files/CV_WafaJohal.pdf) — _Updated: March 2024_
+[Download a PDF copy](/pdf/CV_WafaJohal.pdf) — _Updated: March 2024_
