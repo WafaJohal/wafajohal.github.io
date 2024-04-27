@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Human-Centered Robot Learning
-description: with background image
+description: Improving accessibility of robots for novice users
 img: assets/img/12.jpg
 importance: 1
 category: work
