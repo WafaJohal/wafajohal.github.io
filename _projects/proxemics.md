@@ -5,7 +5,7 @@ tags:
 - affective computing
 - social robot
 - navigation
-date: "2021-01-04T00:00:00Z"
+layout: page
 
 # Optional external URL for project (replaces project detail page).
 links:

@@ -1,5 +1,6 @@
 ---
 title: Human-Robot Collaboration
+layout: page
 excerpt:  New interfaces for HRC
 collection: portfolio
 highlight: 1

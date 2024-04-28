@@ -4,6 +4,7 @@ excerpt: Understading the value of robots for leaners
 collection: portfolio
 highlight: 1
 category: current
+layout: page
 ---
 
 With the increasing number of engineering jobs, politics have more recently turned towards introduction of

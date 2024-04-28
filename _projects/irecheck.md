@@ -6,9 +6,7 @@ tags:
 - cowriter
 - tegami
 - irecheck
-date: "2020-01-01T00:00:00Z"
-
-display_categories
+layout: page
 
 #external_link: http://www.animatas.eu/
 

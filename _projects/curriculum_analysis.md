@@ -1,5 +1,6 @@
 ---
 title: Data-Driven Curriculum Analysis
+layout: page
 summary: Use lecture content to visualise curriculum
 tags:
 - curriculum-analysis

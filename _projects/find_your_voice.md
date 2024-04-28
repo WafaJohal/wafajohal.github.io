@@ -1,5 +1,6 @@
 ---
 title: Find Your Voice
+layout: page
 summary: Helping children's language understanding through joke telling with home assistant
 tags:
 - affective computing
