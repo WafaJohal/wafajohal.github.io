@@ -7,7 +7,7 @@ title: ✈️ 🇰🇿  Astana! Visiting our partner for the CoWriting Kazakh pr
 #   1 = List
 #   2 = Compact
 #   3 = Card
-view: 2
+layout: post
 date: 2019-01-07
 
 # Optional header image (relative to `static/img/` folder).

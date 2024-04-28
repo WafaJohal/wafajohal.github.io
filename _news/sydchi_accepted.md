@@ -7,7 +7,7 @@ title: The SydCHI Local Chapter just got accepted
 #   1 = List
 #   2 = Compact
 #   3 = Card
-view: 2
+layout: post
 date: 2020-06-25
 
 # Optional header image (relative to `static/img/` folder).

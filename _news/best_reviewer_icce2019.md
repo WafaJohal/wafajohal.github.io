@@ -5,7 +5,7 @@ title: Best Reviewer Award for ICCE
 #   1 = List
 #   2 = Compact
 #   3 = Card
-view: 3
+layout: post
 date: 2019-10-22
 
 # Optional header image (relative to `static/img/` folder).

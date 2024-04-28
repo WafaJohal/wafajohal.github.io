@@ -5,7 +5,7 @@ title: 📣 2 PhD Positions in Human-Robot Interaction 🤖
 #   1 = List
 #   2 = Compact
 #   3 = Card
-view: 3
+layout: post
 date: 2021-03-17
 
 # Optional header image (relative to `static/img/` folder).

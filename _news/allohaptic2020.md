@@ -5,7 +5,7 @@ title: Paper accepted! Allohaptic
 #   1 = List
 #   2 = Compact
 #   3 = Card
-view: 2
+layout: post
 date: 2019-10-14
 
 # Optional header image (relative to `static/img/` folder).

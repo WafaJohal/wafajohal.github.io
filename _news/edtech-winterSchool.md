@@ -7,7 +7,7 @@ title: Organising a Winter School on Developing Technologies in Educational Sett
 #   1 = List
 #   2 = Compact
 #   3 = Card
-view: 2
+layout: post
 date: 2019-02-05
 
 # Optional header image (relative to `static/img/` folder).

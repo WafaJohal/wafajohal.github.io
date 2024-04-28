@@ -1,11 +1,11 @@
 ---
-title: 🏆 I was awarded with an ARC DECRA fellowship!
+title: 🏆 I have been awarded an ARC DECRA fellowship!
 
 # View.
 #   1 = List
 #   2 = Compact
 #   3 = Card
-view: 2
+layout: post
 date: 2020-12-10
 
 # Optional header image (relative to `static/img/` folder).

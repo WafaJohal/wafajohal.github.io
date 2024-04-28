@@ -5,7 +5,7 @@ title: Reviewing ...
 #   1 = List
 #   2 = Compact
 #   3 = Card
-view: 3
+layout: post
 date: 2017-01-17
 
 # Optional header image (relative to `static/img/` folder).

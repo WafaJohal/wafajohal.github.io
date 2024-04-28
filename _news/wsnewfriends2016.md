@@ -5,7 +5,7 @@ title: Workshop on Social Robots in Education @NewFriends 2016
 #   1 = List
 #   2 = Compact
 #   3 = Card
-view: 3
+layout: post
 date: 2016-08-11
 
 # Optional header image (relative to `static/img/` folder).

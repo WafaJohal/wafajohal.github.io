@@ -5,7 +5,7 @@ title: 🏆 Best Demo Award at HRI 2020!
 #   1 = List
 #   2 = Compact
 #   3 = Card
-view: 3
+layout: post
 date: 2020-05-25
 
 # Optional header image (relative to `static/img/` folder).

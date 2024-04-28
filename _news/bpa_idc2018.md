@@ -5,7 +5,7 @@ title: Honorable Mention Award at IDC2018!
 #   1 = List
 #   2 = Compact
 #   3 = Card
-view: 2
+layout: post
 date: 2018-06-22
 
 # Optional header image (relative to `static/img/` folder).

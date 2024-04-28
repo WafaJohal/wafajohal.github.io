@@ -7,7 +7,7 @@ title: Talk at the HRI 2018 Mini Symposium, Standford CA
 #   1 = List
 #   2 = Compact
 #   3 = Card
-view: 2
+layout: post
 date: 2018-11-17
 
 # Optional header image (relative to `static/img/` folder).

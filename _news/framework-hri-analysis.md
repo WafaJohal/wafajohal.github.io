@@ -7,7 +7,7 @@ title: Bridging multi-level time scales for HRI analysis
 #   1 = List
 #   2 = Compact
 #   3 = Card
-view: 2
+layout: post
 date: 2019-08-16
 
 # Optional header image (relative to `static/img/` folder).

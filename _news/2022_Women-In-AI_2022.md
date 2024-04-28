@@ -5,7 +5,7 @@ title: Women in AI co-chair at AJCAI
 #   1 = List
 #   2 = Compact
 #   3 = Card
-view: 3
+layout: post
 date: 2022-02-03
 
 # Optional header image (relative to `static/img/` folder).

@@ -5,7 +5,7 @@ title: Project CoWriting Kazakh Accepted!
 #   1 = List
 #   2 = Compact
 #   3 = Card
-view: 2
+layout: post
 date: 2018-09-14
 
 # Optional header image (relative to `static/img/` folder).
