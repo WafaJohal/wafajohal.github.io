@@ -7,7 +7,7 @@ tags:
 - handwriting
 - cowriting_kazakh
 category: past
-date: "2016-04-27T00:00:00Z"
+img: assets/img/projects/thumbnails/cowriting_kazakh.jpg
 
 links:
 - icon: user

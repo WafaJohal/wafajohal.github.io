@@ -8,9 +8,7 @@ date: "2022-02-22T00:00:00Z"
 
 
 category: current
-image:
-  caption: Photo by Wafa Johal
-  focal_point: Smart
+img: assets/img/projects/thumbnails/curriculum_analysis.png
 ---
 
 Curriculum Analysis has for objectives: 1) to assess the curriculum to improve it, 2) to identify potential problem (gaps, overlap of topics), 3) to plan for updates of the curriculum and 4) to prepare audits of the curriculum. Unlike curriculum design or development, curriculum analysis looks at the current state of what is being taught and provides a means to unpack the components (e.g., knowledge, resources), investigate interconnections and reveal the relationships between these components (e.g., similarity, dependencies, alignment). 
