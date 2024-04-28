@@ -5,6 +5,7 @@ tags:
 - styles
 - moca
 date: "2016-04-27T00:00:00Z"
+category: past
 
 # Optional external URL for project (replaces project detail page).
 image:

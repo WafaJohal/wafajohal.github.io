@@ -12,7 +12,7 @@ links:
   icon_pack: fas
   name: Dominique Vaufreydaz
   url: https://research.vaufreydaz.org/
-
+category: past
 
 image:
   caption: Photo by Dominique Vaufreydaz and Wafa Johal

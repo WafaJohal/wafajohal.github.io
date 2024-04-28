@@ -13,7 +13,7 @@ links:
   icon_pack: fas
   name: Oltan Sevinc
   url: 
-
+category: past
 
 image:
   caption: Wafa Johal

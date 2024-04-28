@@ -6,7 +6,7 @@ tags:
 date: "2022-02-22T00:00:00Z"
 
 
-
+category: current
 image:
   caption: Photo by Wafa Johal
   focal_point: Smart

@@ -3,6 +3,7 @@ title: Human-Robot Collaboration
 excerpt:  New interfaces for HRC
 collection: portfolio
 highlight: 1
+category: current
 ---
 
 Every project has a beautiful feature showcase page.
