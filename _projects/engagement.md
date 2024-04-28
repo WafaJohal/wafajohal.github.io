@@ -15,9 +15,7 @@ links:
   url: https://research.vaufreydaz.org/
 category: past
 
-image:
-  caption: Photo by Dominique Vaufreydaz and Wafa Johal
-  focal_point: Smart
+img: assets/img/projects/thumbnails/engagement.png
 ---
 
 In the field of human-robot interaction (HRI) as in many other technical fields, an innumerable number of different

@@ -2,7 +2,7 @@
 layout: page
 title: Human-Centered Robot Learning
 description: Improving accessibility of robots for novice users
-img: assets/img/12.jpg
+img: assets/img/projects/thumbnails/hurl.png
 importance: 1
 category: current
 related_publications: true

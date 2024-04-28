@@ -10,8 +10,7 @@ layout: page
 
 #external_link: http://www.animatas.eu/
 
-image:
-  focal_point: Smart
+img: assets/img/projects/thumbnails/irecheck.png
 
 links:
 - icon: user
