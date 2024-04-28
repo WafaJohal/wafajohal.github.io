@@ -1,7 +1,7 @@
 ---
 title: CoWriting Kazakh
 layout: page
-summary: A social robot to help the transition from Cyrillic to Latin alphabet in Kazakhstan 
+description: A social robot to help the transition from Cyrillic to Latin alphabet in Kazakhstan 
 tags:
 - cowriter
 - handwriting

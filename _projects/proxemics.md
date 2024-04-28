@@ -1,6 +1,6 @@
 ---
 title: Join the Group
-summary: Enable robots to navigate in social enviroment around groups
+description: Enable robots to navigate in social enviroment around groups
 tags:
 - affective computing
 - social robot

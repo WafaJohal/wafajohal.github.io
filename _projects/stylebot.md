@@ -1,6 +1,6 @@
 ---
 title: Behavioural Styles
-summary: Generating context aware gestures
+description: Generating context aware gestures
 tags:
 - styles
 - moca

@@ -1,7 +1,7 @@
 ---
 title: Behavioural Analysis in HRI
 layout: page
-summary: Understanding human actions, intentions is key
+descriptiom: Understanding human actions, intentions is key
 tags:
 - affective computing
 - cowriter
