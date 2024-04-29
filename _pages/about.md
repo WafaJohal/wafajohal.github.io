@@ -8,10 +8,7 @@ profile:
   align: left
   image: wafa.jpeg
   image_circular: true # crops the image to make it circular
-  more_info: >
-    Melbourne Connect
-    700 Swanston Street
-    3053 Carlton, VIC, Australia
+  more_info: '' # Melbourne Connect 700 Swanston Street 3053 Carlton, VIC, Australia
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
