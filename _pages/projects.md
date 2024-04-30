@@ -5,7 +5,7 @@ permalink: /projects/
 nav: true
 nav_order: 3
 display_categories: [current,past]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
@@ -24,6 +24,7 @@ horizontal: false
     <div class="row row-cols-1 row-cols-md-2">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
+      <br>
     {% endfor %}
     </div>
   </div>
