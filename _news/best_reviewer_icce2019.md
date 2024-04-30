@@ -14,8 +14,6 @@ header:
   image: "posts/icce-2019.png"
 
 
-
-
 ---
 I am hounoured that the 27th International Conference on Computers in Education awarded me with the Best Reviewer Award. 
 
