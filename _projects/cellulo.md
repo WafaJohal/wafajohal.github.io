@@ -7,23 +7,21 @@ img: assets/img/projects/thumbnails/cellulo.png
 related_publications: true
 ---
 
-## References 
+Cellulo is a tangible robot system capable of providing haptic feedback.
 
-{% cite olsen2022leveraging %}
+It has two primary application domains:
 
-{% cite ozgur2022effect %}
+## Assistance and rehabilitation 
 
-{% cite chibaudel2020 %}
+- Upper arm rehabilitation for stroke patients {% cite ozgur2022effect %}. We invesitagted the effect of gamification {% cite guneysu2020gamified %} {% cite guneysu2020iterative %}
 
-{% cite guneysu2020gamified %}
+- Collaborative task assistance for the visually impaired, including a gaming environment {% cite chibaudel2020 %} , and educational activities like teaching shapes and letters {% cite neto2020using %}
 
-{% cite khodr2020allohaptic %}
+## Education
 
-{% cite neto2020using %}
+- Assessing learner behavior via eye-tracking analysis {% cite olsen2022leveraging %}
 
-{% cite guneysu2020iterative %}
+- Understanding how students collaborate while learning mathematical concepts{% cite khodr2020allohaptic %} {% cite johal2020learning %}
 
-{% cite johal2020learning %}
-
-{% cite johal2019tip %}
+- Exploring orchestration of tangible interfaces {% cite johal2019tip %}
 
