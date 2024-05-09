@@ -20,16 +20,15 @@ Relatively little is known about the transfer of writing skills across scripts a
  
 ## Deliverables 
 
-- We proposed the first dataset for handwriting recognition of Cyrillic-based languages such as Kazakh and Russian, which is appropriate for the use by machine learning approaches. It contains 121,234 samples of 42 Cyrillic letters. The performance of Cyrillic-MNIST is evaluated using standard deep learning approaches and is compared to the Extended MNIST (EMNIST) dataset. The dataset is available at https://github.com/bolattleubayev/cmnist. This work is under review in Frontiers in Big Data journal. It was conducted in Kazakhstan. 
+- We proposed the first dataset for handwriting recognition of Cyrillic-based languages such as Kazakh and Russian, which is appropriate for the use by machine learning approaches. It contains 121,234 samples of 42 Cyrillic letters. The performance of Cyrillic-MNIST is evaluated using standard deep learning approaches and is compared to the Extended MNIST (EMNIST) dataset. The dataset is available at https://github.com/bolattleubayev/cmnist. (See {% cite zhanel2020 %})
  
 
-- We implemented an autonomous social robot that would assist and motivate children in transition from the old Cyrillic alphabet to a new Latin alphabet. The hardware components of the system include a humanoid NAO robot and a tablet with a stylus. The software components of the CoWriting Kazakh system include: a) handwriting recognition of Cyrillic languages trained on over 120,000 samples of the Cyrillic-MNIST dataset; b) Learning by Demonstration (LbD) in robot font to dynamically adapt to each child's individual handwriting style where trajectories of human handwriting are collected in real time; c) Latin-to-Latin Learning by Teaching (LbT): a humanoid robot plays a unique social role and asks for help to learn Kazakh language but since it cannot read Cyrillic script, a child becomes robot's teacher who is committed to try her best to write the words in Latin so that the robot can read and learn Kazakh. Such an approach allows us to keep a child engaged in the learning process that we utilized in the experiment with 67 children. The system was submitted as a demonstration paper titled “CoWriting Kazakh: Learning a new script with a robot - Demonstration”. This demonstration got the “Best Demonstration” award at the prestigious HRI 2020 conference. This work was conducted in Kazakhstan.  
+- We implemented an autonomous social robot that would assist and motivate children in transition from the old Cyrillic alphabet to a new Latin alphabet {% cite sandygulova2020cowriting %}. The hardware components of the system include a humanoid NAO robot and a tablet with a stylus. The software components of the CoWriting Kazakh system include: a) handwriting recognition of Cyrillic languages trained on over 120,000 samples of the Cyrillic-MNIST dataset; b) Learning by Demonstration (LbD) in robot font to dynamically adapt to each child's individual handwriting style where trajectories of human handwriting are collected in real time; c) Latin-to-Latin Learning by Teaching (LbT): a humanoid robot plays a unique social role and asks for help to learn Kazakh language but since it cannot read Cyrillic script, a child becomes robot's teacher who is committed to try her best to write the words in Latin so that the robot can read and learn Kazakh. Such an approach allows us to keep a child engaged in the learning process that we utilized in the experiment with 67 children. The system was submitted as a demonstration paper titled “CoWriting Kazakh: Learning a new script with a robot - Demonstration”. This demonstration got the “Best Demonstration” award at the prestigious HRI 2020 conference. This work was conducted in Kazakhstan.  
 
 
-## References 
 
-{% cite zhanel2020 %}
 
-{% cite sandygulova2020cowriting %}
+
+
 
 
