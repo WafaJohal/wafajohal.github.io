@@ -8,7 +8,7 @@ tags:
 - cowriting_kazakh
 category: past
 img: assets/img/projects/thumbnails/cowriting_kazakh.jpg
-
+related_publications: true
 ---
 
 ## Project Summary
