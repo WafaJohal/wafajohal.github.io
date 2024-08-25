@@ -7,7 +7,7 @@ tags:
 date: "2022-02-22T00:00:00Z"
 
 
-category: current
+category: others
 img: assets/img/projects/thumbnails/curriculum_analysis.png
 ---
 
