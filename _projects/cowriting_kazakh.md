@@ -7,6 +7,7 @@ tags:
 - handwriting
 - cowriting_kazakh
 category: past
+highlight: 2
 img: assets/img/projects/thumbnails/cowriting_kazakh.jpg
 related_publications: true
 ---

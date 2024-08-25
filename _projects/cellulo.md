@@ -3,6 +3,7 @@ title: Cellulo
 layout: page
 description: Tangible and haptic robots for education and rehabilitation
 category: past
+highlight: 1
 img: assets/img/projects/thumbnails/cellulo.png
 related_publications: true
 ---

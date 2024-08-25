@@ -14,7 +14,7 @@ links:
   name: Dominique Vaufreydaz
   url: https://research.vaufreydaz.org/
 category: past
-
+highlight: 3
 img: assets/img/projects/thumbnails/engagement.png
 ---
 
