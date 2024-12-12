@@ -7,6 +7,7 @@ highlight: 1
 category: current
 date: "2021-07-01T00:00:00Z"
 img: assets/img/projects/thumbnails/human_robot_learning.png
+related_publications: true
 ---
 
 <div class="row">
@@ -64,6 +65,13 @@ The project has achieved significant milestones, as reflected in the following p
 <div class="caption">
     Gamified tools used to enhance teaching efficacy and user engagement.
 </div>
+
+## Team Members
+
+This project involves contributions from several dedicated researchers, including PhD students:
+
+- **Ornnalin Phaijit**
+- **Muhammad Bilal**
 
 
 {% raw %}
