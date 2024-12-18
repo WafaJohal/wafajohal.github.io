@@ -41,6 +41,18 @@ This three-year project, funded by the Australian Research Council, began in mid
 
 The project has achieved significant milestones, as reflected in the following publications:
 
+- **Beyond Success: Quantifying Demonstration Quality in Learning from Demonstration** {% cite bilal2024 %}
+   - Muhammad Bilal, Nir Lipovetzky, Denny Oetomo, Wafa Johal
+   - *2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024*
+
+- **Mr.LfD: A Mixed Reality Interface for Robot Learning from Demonstration** {% cite chen2024 %}
+   - Jiahao Chen, Antony Chacon, Muhammad Bilal, Qiushi Zhou, Wafa Johal
+   - *36th Australian Conference on Human-Computer Interaction (OzCHI '24), November 30–December 4, 2024, Brisbane, Australia*
+
+- **Improving Robot Learning from Demonstration via Competitive Interactions and User Interface Interventions** {% cite phaijit2024 %}
+   - Ornnalin Phaijit, Claude Sammut, Wafa Johal
+   - *2024 Australasian Conference on Robotics and Automation (ACRA 2024)*
+
 - **User Interface Interventions for Improving Robot Learning from Demonstration** {% cite phaijit2023user %}
    - Ornnalin Phaijit, Claude Sammut, Wafa Johal
    - *11th International Conference on Human-Agent Interaction (HAI), 2023*
@@ -53,9 +65,7 @@ The project has achieved significant milestones, as reflected in the following p
    - Ornnalin Phaijit, Mohammad Obaid, Claude Sammut, Wafa Johal
    - *17th ACM/IEEE International Conference on Human-Robot Interaction (HRI), 2022*
 
-- **Beyond Success: Quantifying Demonstration Quality in Learning from Demonstration** {% cite bilal2024 %}
-   - Muhammad Bilal, Nir Lipovetzky, Denny Oetomo, Wafa Johal
-   - *2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024*
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
