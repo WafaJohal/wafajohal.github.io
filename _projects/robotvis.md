@@ -27,7 +27,7 @@ Recent work has explored how robots convey uncertainty and confidence levels dur
 ​
 2. Affective Data Visualisation
 The concept of "FaceVis" has introduced a novel way of mapping data onto a robot's face for affective visualisations. This design uses metaphorical and expressive features, such as wrinkles, tears, and facial movements, to communicate complex data in an emotionally resonant manner. This approach has shown potential to foster engagement, empathy, and self-reflection when visualising data like environmental pollution or social issues​
-
+For more see: https://sites.google.com/view/facevis/home?authuser=0
 
 3. Embodied Data Agency
 Advances in embodied data visualisation suggest that autonomous robots can act as "data agents," where their movements and actions embody and communicate data directly. This concept—termed "Data-Agent Interplay"—investigates how robots’ autonomy and interactivity influence human perception of data and the robots themselves​
