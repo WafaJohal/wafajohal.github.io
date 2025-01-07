@@ -6,19 +6,16 @@ collection: portfolio
 highlight: 1
 category: current
 date: "2021-07-01T00:00:00Z"
-img: assets/img/projects/thumbnails/Lfd.gif
+img: assets/img/projects/hurl/bilal1.png
 related_publications: true
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/hurl/bilal.png" title="Robot interacting with human" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/hurl/bilal1.png" title="Robot interacting with human" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/hurl/mrlfd.png" title="Teaching tools demonstration" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="Interactive robot learning" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -66,15 +63,6 @@ The project has achieved significant milestones, as reflected in the following p
    - *17th ACM/IEEE International Conference on Human-Robot Interaction (HRI), 2022*
 
 
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/4.jpg" title="Gamified teaching tools" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Gamified tools used to enhance teaching efficacy and user engagement.
-</div>
 
 ## Team Members
 
