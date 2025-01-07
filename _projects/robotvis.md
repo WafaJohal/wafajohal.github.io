@@ -1,5 +1,5 @@
 ---
-title: Robot Vis
+title: Robot-assisted Data Visualisation
 description:  Looking at Robot Data Visualisation with an Interaction and Decision Making Perspective
 collection: portfolio
 highlight: 3
@@ -10,13 +10,14 @@ related_publications: true
 
 ## Description
 
-In the realm of human-robot interaction (HRI), robots are increasingly becoming agents of data visualisation, helping bridge the gap between abstract data and tangible understanding. From conveying uncertainty in decision-making to leveraging expressive designs for emotional engagement, the field of robot-assisted data visualisation is exploring innovative methods to enhance transparency, trust, and collaboration. Robots, as embodied agents, not only display data but also influence human decision-making and emotional perception through their behaviours and interfaces.
+In the realm of human-robot interaction (HRI), robots are increasining generating data, used to support decision-making of to collaborate with humans. 
+From conveying uncertainty in decision-making to leveraging expressive designs for emotional engagement, the field of robot-assisted data visualisation is exploring innovative methods to enhance transparency, trust, and collaboration. Robots, as embodied agents, not only display data but also influence human decision-making and emotional perception through their behaviours and interfaces.
 
-Recent studies have investigated how robots can communicate their confidence and uncertainty through graphical user interfaces (GUI) or embodied visualisations, such as motion and hesitation gestures. These visualisations support decision-making in high-stakes scenarios, such as healthcare or industrial tasks, by enhancing user trust and transparency​. 
+Our recent studies have investigated how robots can communicate their confidence and uncertainty through graphical user interfaces (GUI) or embodied visualisations, such as motion and hesitation gestures {% cite schombs2024b %}. These visualisations support decision-making in high-stakes scenarios, such as healthcare or industrial tasks, by enhancing user trust and transparency​. 
 
-Furthermore, affective visualisations, like leveraging a robot's face as an interface, offer an engaging approach to communicate emotions and provoke introspection by mapping data onto expressive features​. 
+Furthermore, affective visualisations, like leveraging a robot's face as an interface, offer an engaging approach to communicate emotions and provoke introspection by mapping data onto expressive features {% cite schombs2024facevis %}​. 
 
-This ongoing research demonstrates how robots can transform traditional data visualisation methods by incorporating agency, adaptability, and interactivity. These efforts are pushing the boundaries of how humans interpret and interact with data in collaborative environments.
+This ongoing research demonstrates how robots can transform traditional data visualisation methods by incorporating agency, adaptability, and interactivity {% cite schombs2024b %}. These efforts are pushing the boundaries of how humans interpret and interact with data in collaborative environments {% cite schombs2024exploring %}.
 
 ## Recent Progress
 
