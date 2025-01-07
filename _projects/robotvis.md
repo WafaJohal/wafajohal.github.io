@@ -6,6 +6,7 @@ highlight: 3
 category: current
 layout: page
 related_publications: true
+img: assets/img/projects/thumbnails/facevis.jpg
 ---
 
 ## Description
