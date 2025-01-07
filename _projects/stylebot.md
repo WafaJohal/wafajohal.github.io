@@ -5,7 +5,7 @@ tags:
 - styles
 - moca
 layout: page
-category: past
+category: Tangible and haptic robots for education and rehabilitation
 
 # Optional external URL for project (replaces project detail page).
 image:

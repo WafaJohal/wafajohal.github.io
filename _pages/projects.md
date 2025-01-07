@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: Research Projects
 permalink: /projects/
 nav: true
 nav_order: 3
