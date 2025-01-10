@@ -1,6 +1,6 @@
 ---
 title: Assisted Teleoperation and Telepresence
-description:  Investigating how we can assisye
+description:  Advancing teleoperation and telepresence through shared control and telepresence technologies for better usability and performance.
 collection: portfolio
 highlight: 3
 category: current
