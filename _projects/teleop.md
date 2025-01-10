@@ -6,7 +6,7 @@ highlight: 3
 category: current
 layout: page
 related_publications: true
-img: assets/img/projects/thumbnails/facevis.jpg
+img: assets/img/projects/teleop/teleop_thumb.jpg
 ---
 
 
@@ -32,11 +32,9 @@ Our overarching goal is to develop semi-autonomous teleoperation frameworks that
 Recent advances within the project include the following:
 
 
-- Cognitive Load and Trust Analysis in Teleoperation: A comprehensive user study examined how varying levels of robot autonomy influence cognitive load and trust during trajectory tracking tasks. Results showed that autonomy significantly impacts perceived cognitive load and trust but revealed no direct interaction between these factors. This emphasizes the need for considering cognitive load and trust as independent but interrelated metrics in shared control design​
+- Cognitive Load and Trust Analysis in Teleoperation: A comprehensive user study examined how varying levels of robot autonomy influence cognitive load and trust during trajectory tracking tasks. Results showed that autonomy significantly impacts perceived cognitive load and trust but revealed no direct interaction between these factors. This emphasizes the need for considering cognitive load and trust as independent but interrelated metrics in shared control design​. {% cite pan2024 %}
 ​
-- Adapted Fitts’ Law for Shared Control Benchmarking: The project introduced an adapted version of Fitts’ Law to quantify task difficulty in target-reaching scenarios. This model demonstrated how task complexity and robot autonomy affect human performance and cognitive load, providing a foundation for systematically assessing shared control systems. The findings suggest that task difficulty can be used as a proxy to estimate cognitive load, enabling real-time adaptability in shared control​
-
-- Human-Robot Collaboration Frameworks: Experimental evaluations with teleoperated robotic arms showcased the efficacy of blending control strategies to mediate autonomy levels dynamically. The studies highlighted how increased autonomy reduces cognitive load but may require careful tuning to maintain user trust and engagement​
+- Adapted Fitts’ Law for Shared Control Benchmarking: The project introduced an adapted version of Fitts’ Law to quantify task difficulty in target-reaching scenarios. This model demonstrated how task complexity and robot autonomy affect human performance and cognitive load, providing a foundation for systematically assessing shared control systems. The findings suggest that task difficulty can be used as a proxy to estimate cognitive load, enabling real-time adaptability in shared control​ {% cite pan2025 %}
 
 
 - Remote Telepresence Robotics for Social Interactions**:
