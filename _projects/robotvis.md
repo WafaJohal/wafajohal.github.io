@@ -11,12 +11,12 @@ img: assets/img/projects/thumbnails/facevis.jpg
 
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/robovis/chi2024.jpg" title="Robot displaying its level of confidence via an icon array on a GUI" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-2 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/robovis/chi2024.jpg" title="Robot displaying its level of confidence via an icon array on a GUI" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/robovis/facevis.png" title="" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-2 mt-md-0">
+          {% include figure.liquid loading="eager" path="assets/img/projects/robovis/design_workshop.jpg" title="Robot displaying its level of confidence via an icon array on a GUI" class="img-fluid rounded z-depth-1" %}
+       
     </div>
 </div>
 <div class="caption">
@@ -37,14 +37,17 @@ This ongoing research demonstrates how robots can transform traditional data vis
 ## Recent Progress
 
 
-1. Visualising Uncertainty in Decision-Making
+1. **Visualising Uncertainty in Decision-Making**: 
 Recent work has explored how robots convey uncertainty and confidence levels during collaborative decision-making tasks. Through GUIs and embodied signals (e.g., motion hesitation), robots help users make more informed decisions, particularly in scenarios involving risk. For example, a study demonstrated how graphical visualisations, such as bar graphs and icon arrays, alongside embodied cues like waiting times, impact user trust and decision accuracy in packing tasks​
 ​
-2. Affective Data Visualisation
+2. **Affective Data Visualisation**:
 The concept of "FaceVis" has introduced a novel way of mapping data onto a robot's face for affective visualisations. This design uses metaphorical and expressive features, such as wrinkles, tears, and facial movements, to communicate complex data in an emotionally resonant manner. This approach has shown potential to foster engagement, empathy, and self-reflection when visualising data like environmental pollution or social issues​.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/robovis/design_workshop.jpg" title="FaceVis Design Workshop, January 2024" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/robovis/facevis.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/robovis/facevis2.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -53,6 +56,6 @@ The concept of "FaceVis" has introduced a novel way of mapping data onto a robot
 
 For more see: [https://sites.google.com/view/facevis/home?authuser=0](https://sites.google.com/view/facevis/home?authuser=0)
 
-3. Embodied Data Agency
+3. **Embodied Data Agency**:
 Advances in embodied data visualisation suggest that autonomous robots can act as "data agents," where their movements and actions embody and communicate data directly. This concept—termed "Data-Agent Interplay"—investigates how robots’ autonomy and interactivity influence human perception of data and the robots themselves​
 
