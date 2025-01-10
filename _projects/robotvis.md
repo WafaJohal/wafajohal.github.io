@@ -51,7 +51,7 @@ The concept of "FaceVis" has introduced a novel way of mapping data onto a robot
     </div>
 </div>
 <div class="caption">
-    Gamified tools used to enhance teaching efficacy and user engagement.
+    Example of designs using a face as a canva to render health and enviromental data.
 </div>
 
 For more see: [https://sites.google.com/view/facevis/home?authuser=0](https://sites.google.com/view/facevis/home?authuser=0)
