@@ -6,7 +6,7 @@ subtitle: ''
 
 profile:
   align: left
-  image: wafa.jpeg
+  image: WafaJ.jpg
   image_circular: true # crops the image to make it circular
   more_info: '' # Melbourne Connect 700 Swanston Street 3053 Carlton, VIC, Australia
 
