@@ -1,7 +1,31 @@
-"wafa":
-  - firstname: ["Wafa", "W.", "Wafa Johal"]
+# _data/coauthors.yml
+# Al-folio uses this to auto-link co-author names to their homepages.
+# Format: lastname (lowercase) with firstname variants
+
+"tabatabaei":
+  - firstname: ["Ramtin"]
+    url: https://scholar.google.com
+
+"kostakos":
+  - firstname: ["Vassilis"]
+    url: https://people.eng.unimelb.edu.au/vassilis/
+
+"knibbe":
+  - firstname: ["Jarrod"]
+    url: https://cis.unimelb.edu.au/people/jarrod-knibbe
+
+"lipovetzky":
+  - firstname: ["Nir"]
+    url: https://nirlipo.github.io/
+
+"oetomo":
+  - firstname: ["Denny"]
+    url: https://findanexpert.unimelb.edu.au/profile/4779-denny-oetomo
+
+"johal":
+  - firstname: ["Wafa", "W.", "W. Johal"]
     url: https://wafa.johal.org
 
-"sarah":
-  - firstname: ["Sarah", "S.", "B. Y.", "Sarah Schombs"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"schombs":
+  - firstname: ["Sarah", "S.", "B. Y."]
+    url:

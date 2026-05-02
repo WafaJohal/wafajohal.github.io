@@ -1,0 +1,842 @@
+// ─── Portfolio v2 Design System ──────────────────────────────────────────────
+// Single-column editorial layout, DM Sans, teal accent
+
+// ─── CSS Custom Properties ───────────────────────────────────────────────────
+:root {
+  --pv2-accent: oklch(48% 0.14 185);
+  --pv2-accent-fallback: #2d8b97;
+  --pv2-muted: #6b7280;
+  --pv2-border: #e4e7ed;
+  --pv2-bg2: #f7f8fa;
+  --pv2-chip-bg: #f0f2f5;
+  --pv2-max: 880px;
+  --pv2-pad: 48px;
+
+  // Map to al-folio's theme variables
+  --global-theme-color: var(--pv2-accent);
+  --global-hover-color: var(--pv2-accent);
+  --global-text-color-light: var(--pv2-muted);
+  --global-divider-color: var(--pv2-border);
+}
+
+// ─── Font ────────────────────────────────────────────────────────────────────
+body {
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+// ─── Container ───────────────────────────────────────────────────────────────
+// Narrow to 880px content width across all pages
+.container {
+  max-width: calc(var(--pv2-max) + 2 * var(--pv2-pad)) !important;
+  padding-left: var(--pv2-pad) !important;
+  padding-right: var(--pv2-pad) !important;
+}
+@media (max-width: 640px) {
+  .container {
+    padding-left: 22px !important;
+    padding-right: 22px !important;
+  }
+}
+
+// ─── Navbar ──────────────────────────────────────────────────────────────────
+#navbar {
+  background: var(--global-bg-color) !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  padding-top: 18px !important;
+  padding-bottom: 18px !important;
+
+  .navbar-brand {
+    padding: 0;
+    margin-right: 0;
+
+    img.pv2-nav-logo {
+      height: 36px;
+      width: auto;
+      display: block;
+    }
+
+    // Fallback text brand styling
+    &.pv2-text-brand {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: -0.3px;
+      color: var(--global-text-color) !important;
+    }
+  }
+
+  .navbar-nav {
+    .nav-item .nav-link {
+      font-size: 12px !important;
+      font-weight: 500 !important;
+      letter-spacing: 0.6px !important;
+      text-transform: uppercase !important;
+      color: var(--pv2-muted) !important;
+      padding: 0 0 0 28px !important;
+      transition: color 0.15s;
+
+      &:hover {
+        color: var(--pv2-accent) !important;
+      }
+
+      &.active, &[aria-current="page"] {
+        color: var(--pv2-accent) !important;
+        font-weight: 500 !important;
+      }
+    }
+  }
+
+  // Hide dark mode toggle — the design doesn't have one
+  .toggle-container {
+    display: none !important;
+  }
+
+  // Hide the "sr-only (current)" spans from Bootstrap
+  .sr-only { display: none; }
+}
+
+// ─── Footer ──────────────────────────────────────────────────────────────────
+footer {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 12px !important;
+  color: var(--pv2-muted) !important;
+  background: transparent !important;
+  border-top: 1px solid var(--pv2-border) !important;
+  padding: 28px 0 40px !important;
+  margin-top: 64px;
+
+  a { color: var(--pv2-muted) !important; }
+}
+
+// ─── Section title (shared across pages) ─────────────────────────────────────
+.pv2-sec-title {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--pv2-muted);
+  margin: 52px 0 0;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--pv2-border);
+}
+
+// ─── Bio row (homepage) ───────────────────────────────────────────────────────
+.pv2-bio-row {
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
+  padding-top: 40px;
+  padding-bottom: 52px;
+  border-bottom: 1px solid var(--pv2-border);
+}
+
+.pv2-bio-photo {
+  width: 86px;
+  height: 86px;
+  min-width: 86px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 15%;
+  border: 2px solid var(--pv2-border);
+}
+
+.pv2-bio-text-block { flex: 1; min-width: 0; }
+
+.pv2-bio-name {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  margin-bottom: 2px;
+  color: var(--global-text-color);
+}
+
+.pv2-bio-role {
+  font-size: 13px;
+  color: var(--pv2-accent);
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.pv2-bio-body {
+  font-size: 14.5px;
+  line-height: 1.75;
+  font-weight: 300;
+  color: var(--global-text-color);
+  margin-bottom: 0;
+
+  p { margin-bottom: 0; }
+
+  a {
+    color: var(--pv2-accent);
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+  }
+
+  strong { font-weight: 500; }
+}
+
+.pv2-research-line {
+  font-size: 12px;
+  color: var(--pv2-muted);
+  margin-top: 14px;
+  letter-spacing: 0.1px;
+  line-height: 1.6;
+}
+
+.pv2-bio-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+  align-items: center;
+
+  a {
+    font-size: 11.5px;
+    font-weight: 500;
+    color: var(--pv2-muted);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.15s;
+
+    &::before {
+      content: '↗';
+      font-size: 10px;
+      color: var(--pv2-accent);
+    }
+
+    &:hover { color: var(--pv2-accent); }
+  }
+}
+
+// ─── Selected Publications (homepage) ────────────────────────────────────────
+.pv2-selected-pubs {
+  // Override the al-folio .publications styles
+  .publications {
+    margin-top: 0 !important;
+  }
+
+  ol.bibliography {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 4px 0 0 !important;
+
+    li {
+      display: flex;
+      gap: 22px;
+      padding: 24px 0 !important;
+      border-bottom: 1px solid var(--pv2-border) !important;
+      margin-bottom: 0 !important;
+
+      // Hide the Bootstrap column wrapping from al-folio
+      .row { display: contents; }
+      .col-sm-2, .col-sm-10 { display: contents; }
+
+      // Venue/abbr badge
+      .abbr {
+        height: auto !important;
+        margin-bottom: 0 !important;
+        flex-shrink: 0;
+
+        abbr {
+          background: transparent !important;
+          color: var(--pv2-accent) !important;
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          letter-spacing: 0.4px !important;
+          text-transform: uppercase !important;
+          padding: 0 !important;
+          display: block;
+          white-space: nowrap;
+          width: auto !important;
+
+          a { color: var(--pv2-accent) !important; }
+        }
+      }
+
+      .pub-content-wrap {
+        flex: 1;
+        min-width: 0;
+      }
+
+      // Title
+      .title {
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        line-height: 1.45 !important;
+        color: var(--global-text-color) !important;
+        margin-bottom: 10px !important;
+
+        a {
+          color: inherit !important;
+          text-decoration: none !important;
+          &:hover { color: var(--pv2-accent) !important; }
+        }
+      }
+
+      // Author line — "me" is wrapped in <em>
+      .author {
+        font-size: 12.5px !important;
+        color: var(--pv2-muted) !important;
+        line-height: 1.6 !important;
+        margin-bottom: 8px !important;
+
+        > em {
+          font-style: normal !important;
+          color: var(--pv2-accent) !important;
+          font-weight: 500 !important;
+          border-bottom: none !important;
+        }
+
+        a {
+          border-bottom: none !important;
+          color: var(--pv2-muted) !important;
+          &:hover { color: var(--pv2-accent) !important; }
+        }
+      }
+
+      // Venue/periodical
+      .periodical {
+        font-size: 12px;
+        color: var(--pv2-muted);
+      }
+
+      // Links row (PDF, DOI, etc.)
+      .links {
+        margin-top: 8px;
+
+        a.btn {
+          font-size: 11px !important;
+          font-weight: 600 !important;
+          letter-spacing: 0.3px !important;
+          padding: 3px 10px !important;
+          border-radius: 4px !important;
+          border: 1px solid var(--pv2-border) !important;
+          color: var(--pv2-muted) !important;
+          background: transparent !important;
+          text-transform: uppercase !important;
+          transition: all 0.15s;
+          margin-right: 6px;
+
+          &:hover {
+            color: var(--pv2-accent) !important;
+            border-color: var(--pv2-accent) !important;
+          }
+        }
+      }
+
+      // Publication badges (Altmetric etc.) — hide on homepage
+      .badges { display: none; }
+    }
+  }
+}
+
+.pv2-more-pubs {
+  padding-top: 20px;
+  padding-bottom: 8px;
+
+  a {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: var(--pv2-accent);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+
+    &:hover { text-decoration: underline; }
+  }
+}
+
+// ─── Research Project grid (homepage) ────────────────────────────────────────
+.pv2-project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.pv2-proj-card {
+  border: 1px solid var(--pv2-border);
+  border-radius: 8px;
+  padding: 20px;
+  transition: border-color 0.15s;
+  text-decoration: none;
+  display: block;
+
+  &:hover { border-color: var(--pv2-accent); }
+}
+
+.pv2-proj-name {
+  font-size: 13.5px;
+  font-weight: 500;
+  margin-bottom: 7px;
+  color: var(--global-text-color);
+}
+
+.pv2-proj-desc {
+  font-size: 12.5px;
+  color: var(--pv2-muted);
+  line-height: 1.55;
+}
+
+@media (max-width: 640px) {
+  .pv2-bio-row { flex-direction: column; }
+  .pv2-project-grid { grid-template-columns: 1fr; }
+}
+
+// ─── Publications page (full list) ───────────────────────────────────────────
+.pv2-pub-page {
+  .page-header-v2 {
+    padding: 48px 0 0;
+
+    h1 {
+      font-size: 28px;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+      margin-bottom: 10px;
+      color: var(--global-text-color);
+    }
+
+    p {
+      font-size: 14px;
+      color: var(--pv2-muted);
+      line-height: 1.65;
+      font-weight: 300;
+    }
+  }
+
+  // Year headings
+  h2.bibliography,
+  h2.year {
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.4px !important;
+    color: var(--global-text-color) !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    text-align: left !important;
+    padding-top: 36px !important;
+    margin-bottom: -8px !important;
+    margin-top: 0 !important;
+  }
+
+  // Publication entries — editorial style
+  ol.bibliography li {
+    display: grid !important;
+    grid-template-columns: 90px 1fr !important;
+    gap: 0 28px !important;
+    padding: 24px 0 !important;
+    border-bottom: 1px solid var(--pv2-border) !important;
+    margin-bottom: 0 !important;
+
+    &:first-of-type { border-top: 1px solid var(--pv2-border); }
+
+    .row { display: contents; }
+    .col-sm-2, .col-sm-10 { display: contents; }
+
+    .abbr {
+      height: auto !important;
+      margin-bottom: 0 !important;
+
+      abbr {
+        background: transparent !important;
+        color: var(--pv2-accent) !important;
+        font-size: 10.5px !important;
+        font-weight: 700 !important;
+        letter-spacing: 0.5px !important;
+        text-transform: uppercase !important;
+        padding: 0 !important;
+        width: auto !important;
+        display: block;
+        line-height: 1.4;
+
+        a { color: var(--pv2-accent) !important; }
+      }
+    }
+
+    .title {
+      font-size: 15px !important;
+      font-weight: 500 !important;
+      line-height: 1.45 !important;
+      color: var(--global-text-color) !important;
+      margin-bottom: 8px !important;
+
+      a {
+        color: inherit !important;
+        text-decoration: none !important;
+        &:hover { color: var(--pv2-accent) !important; }
+      }
+    }
+
+    .author {
+      font-size: 12.5px !important;
+      color: var(--pv2-muted) !important;
+      margin-bottom: 8px !important;
+
+      > em {
+        font-style: normal !important;
+        color: var(--pv2-accent) !important;
+        font-weight: 500 !important;
+        border-bottom: none !important;
+      }
+
+      a {
+        border-bottom: none !important;
+        color: var(--pv2-muted) !important;
+        &:hover { color: var(--pv2-accent) !important; }
+      }
+    }
+
+    .periodical { font-size: 12px; color: var(--pv2-muted); }
+
+    .links a.btn {
+      font-size: 11px !important;
+      font-weight: 600 !important;
+      padding: 3px 10px !important;
+      border-radius: 4px !important;
+      border: 1px solid var(--pv2-border) !important;
+      color: var(--pv2-muted) !important;
+      background: transparent !important;
+      text-transform: uppercase !important;
+      transition: all 0.15s;
+      margin-right: 6px;
+
+      &:hover {
+        color: var(--pv2-accent) !important;
+        border-color: var(--pv2-accent) !important;
+      }
+    }
+  }
+}
+
+// ─── Teaching page ────────────────────────────────────────────────────────────
+.pv2-teaching-page {
+  .page-header-v2 {
+    padding: 48px 0 40px;
+    border-bottom: 1px solid var(--pv2-border);
+
+    h1 {
+      font-size: 28px;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 14.5px;
+      color: var(--pv2-muted);
+      line-height: 1.7;
+      max-width: 560px;
+      font-weight: 300;
+    }
+  }
+
+  .course-block { margin-top: 0; }
+
+  .course-row {
+    display: grid;
+    grid-template-columns: 110px 1fr 90px;
+    gap: 0 24px;
+    padding: 22px 0;
+    border-bottom: 1px solid var(--pv2-border);
+    align-items: start;
+  }
+
+  .course-code {
+    font-size: 11.5px;
+    font-weight: 600;
+    color: var(--pv2-accent);
+    letter-spacing: 0.4px;
+    padding-top: 2px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .course-name {
+    font-size: 14.5px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    line-height: 1.35;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      &:hover { color: var(--pv2-accent); }
+    }
+  }
+
+  .course-meta {
+    font-size: 12.5px;
+    color: var(--pv2-muted);
+    line-height: 1.5;
+  }
+
+  .course-level {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 12px;
+    display: inline-block;
+    margin-top: 8px;
+    background: var(--pv2-bg2);
+    color: var(--pv2-muted);
+    border: 1px solid var(--pv2-border);
+
+    &.undergrad {
+      background: oklch(96% 0.02 185);
+      color: oklch(44% 0.12 185);
+      border-color: oklch(88% 0.04 185);
+    }
+
+    &.postgrad {
+      background: oklch(96% 0.02 30);
+      color: oklch(44% 0.12 30);
+      border-color: oklch(88% 0.04 30);
+    }
+  }
+
+  .course-term {
+    font-size: 11.5px;
+    color: var(--pv2-muted);
+    text-align: right;
+    padding-top: 2px;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  // Students
+  .students-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 4px;
+  }
+
+  .student-card {
+    padding: 20px 22px;
+    border: 1px solid var(--pv2-border);
+    border-radius: 6px;
+    transition: border-color 0.15s;
+
+    &:hover { border-color: var(--pv2-accent); }
+  }
+
+  .student-name {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+
+  .student-level {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: var(--pv2-accent);
+    margin-bottom: 8px;
+  }
+
+  .student-topic {
+    font-size: 12.5px;
+    color: var(--pv2-muted);
+    line-height: 1.55;
+  }
+
+  .student-cohort {
+    font-size: 11px;
+    color: var(--pv2-muted);
+    margin-top: 8px;
+  }
+
+  // Thesis topics
+  .topics-list { margin-top: 4px; }
+
+  .topic-item {
+    padding: 18px 0;
+    border-bottom: 1px solid var(--pv2-border);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .topic-name {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.45;
+  }
+
+  .topic-badge {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding: 3px 10px;
+    border-radius: 12px;
+    background: var(--pv2-bg2);
+    color: var(--pv2-muted);
+    border: 1px solid var(--pv2-border);
+
+    &.open {
+      background: oklch(96% 0.03 150);
+      color: oklch(36% 0.12 150);
+      border-color: oklch(84% 0.06 150);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .course-row { grid-template-columns: 80px 1fr; }
+    .course-term { display: none; }
+    .students-grid { grid-template-columns: 1fr; }
+  }
+}
+
+// ─── About / Detail page ──────────────────────────────────────────────────────
+.pv2-about-layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 64px;
+  padding: 56px 0 80px;
+  border-top: 1px solid var(--pv2-border);
+
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+.pv2-sidebar {
+  .sidebar-photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 4px;
+    object-fit: cover;
+    object-position: center 10%;
+    display: block;
+    margin-bottom: 24px;
+
+    @media (max-width: 700px) { width: 100px; height: 100px; }
+  }
+
+  .sidebar-name { font-size: 15px; font-weight: 600; letter-spacing: -0.3px; margin-bottom: 4px; }
+  .sidebar-role { font-size: 12.5px; color: var(--pv2-accent); font-weight: 500; margin-bottom: 20px; line-height: 1.5; }
+
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    li {
+      font-size: 12px;
+      color: var(--pv2-muted);
+      line-height: 1.5;
+
+      strong {
+        display: block;
+        font-size: 10px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: var(--global-text-color);
+        margin-bottom: 2px;
+      }
+
+      a { color: var(--pv2-accent); text-decoration: none; &:hover { text-decoration: underline; } }
+    }
+  }
+
+  .sidebar-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 28px;
+
+    a {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--pv2-muted);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.15s;
+
+      &::before { content: '→'; font-size: 11px; color: var(--pv2-accent); }
+      &:hover { color: var(--pv2-accent); }
+    }
+  }
+}
+
+.pv2-about-body {
+  min-width: 0;
+
+  .section { margin-bottom: 52px; }
+
+  .section-label {
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--pv2-muted);
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--pv2-border);
+  }
+
+  .bio-prose {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.85;
+
+    p { margin-bottom: 18px; &:last-child { margin-bottom: 0; } }
+
+    a { color: var(--pv2-accent); text-decoration: none; &:hover { text-decoration: underline; } }
+    strong { font-weight: 500; }
+  }
+
+  // Timeline items (positions, education, awards)
+  .timeline-list { display: flex; flex-direction: column; }
+
+  .timeline-item {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 0 24px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--pv2-border);
+
+    &:first-child { padding-top: 0; }
+  }
+
+  .tl-year {
+    font-size: 11.5px;
+    color: var(--pv2-muted);
+    padding-top: 2px;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.5;
+  }
+
+  .tl-title { font-size: 14px; font-weight: 500; margin-bottom: 2px; line-height: 1.4; }
+
+  .tl-sub {
+    font-size: 12.5px;
+    color: var(--pv2-muted);
+
+    a { color: var(--pv2-accent); text-decoration: none; &:hover { text-decoration: underline; } }
+  }
+}
+
+// ─── Suppress default al-folio page padding on homepage ──────────────────────
+body .post {
+  .post-header { display: none; }
+  article { padding: 0 !important; }
+}
+
+// ─── mt-5 override on homepage ───────────────────────────────────────────────
+.container.mt-5 { margin-top: 0 !important; }

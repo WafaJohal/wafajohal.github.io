@@ -1,76 +1,62 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
 
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 50 | times: 0.2}}px, (min-width: 550px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
+<!-- ── Bio row ── -->
+<div class="pv2-bio-row">
+  {% if page.profile and page.profile.image %}
+    {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+    <img
+      src="{{ profile_image_path | relative_url }}"
+      alt="{{ site.first_name }} {{ site.last_name }}"
+      class="pv2-bio-photo"
+    />
+  {% endif %}
+  <div class="pv2-bio-text-block">
+    <div class="pv2-bio-name">{{ site.first_name }} {{ site.last_name }}</div>
+    <div class="pv2-bio-role">{{ page.subtitle }}</div>
+    <div class="pv2-bio-body">{{ content }}</div>
+    {% if page.research_line %}
+      <p class="pv2-research-line">{{ page.research_line }}</p>
+    {% endif %}
+    {% if page.bio_links %}
+      <div class="pv2-bio-links">
+        {% for link in page.bio_links %}
+          <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
+        {% endfor %}
       </div>
     {% endif %}
-
-    <div class="clearfix">{{ content }}</div>
-
-    <!-- News -->
-    {% if page.news and site.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
-
-    <!-- Latest posts -->
-    {% if site.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
-
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-  </article>
+  </div>
 </div>
+
+<!-- ── Selected Publications ── -->
+{% if page.selected_papers %}
+  <div id="publications">
+    <div class="pv2-sec-title">Selected Publications</div>
+    <div class="pv2-selected-pubs">
+      {% include selected_papers.liquid %}
+    </div>
+    <div class="pv2-more-pubs">
+      <a href="{{ '/publications/' | relative_url }}">Full publication list &nbsp;→</a>
+    </div>
+  </div>
+{% endif %}
+
+<!-- ── Research Projects ── -->
+{% if site.data.projects %}
+  <div id="projects">
+    <div class="pv2-sec-title">Research Projects</div>
+    <div class="pv2-project-grid">
+      {% for project in site.data.projects %}
+        <div class="pv2-proj-card">
+          {% if project.url %}
+            <div class="pv2-proj-name"><a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">{{ project.name }}</a></div>
+          {% else %}
+            <div class="pv2-proj-name">{{ project.name }}</div>
+          {% endif %}
+          <div class="pv2-proj-desc">{{ project.desc }}</div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}

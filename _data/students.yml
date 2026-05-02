@@ -1,0 +1,40 @@
+# Current and past PhD students
+
+current:
+  - name: Ramtin Tabatabaei
+    level: PhD Candidate
+    topic: Robot failure recovery and consistency in human-robot collaboration.
+    enrolled: 2021
+    institution: University of Melbourne
+
+  - name: Muhammad Bilal
+    level: PhD Candidate
+    topic: Quality metrics and interactive feedback for learning from demonstration.
+    enrolled: 2022
+    institution: University of Melbourne
+
+  - name: Jian Zhang
+    level: PhD Candidate
+    topic: Visuo-haptic perception modelling for robot-mediated interaction.
+    enrolled: 2022
+    institution: University of Melbourne
+
+  - name: Yixin Shen
+    level: PhD Candidate
+    topic: Culturally-aware co-speech gesture generation for social robots.
+    enrolled: 2023
+    institution: University of Melbourne
+
+  - name: Sarah Schombs
+    level: PhD Student
+    topic: Tangible robots and haptic interfaces in early childhood education.
+    enrolled: 2023
+    institution: University of Melbourne
+
+  - name: Qiushi Zhou
+    level: PhD Student
+    topic: Mixed reality interfaces for intuitive human-robot collaboration.
+    enrolled: 2024
+    institution: University of Melbourne
+
+past: []
