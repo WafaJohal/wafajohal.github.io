@@ -1,0 +1,16 @@
+# Research projects — displayed on homepage
+- name: Learning from Demonstration
+  desc: Robots that acquire tasks through human-guided demonstrations and interactive feedback.
+  url:
+
+- name: Social Robotics & Gesture
+  desc: Natural expressivity and culturally-aware communication for embodied agents.
+  url:
+
+- name: Robots in Education
+  desc: Tangible and haptic robot interfaces designed for learning environments.
+  url:
+
+- name: Mixed Reality HRI
+  desc: AR/VR interfaces for intuitive, co-located human-robot collaboration.
+  url:

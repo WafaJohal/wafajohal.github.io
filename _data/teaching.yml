@@ -1,0 +1,64 @@
+# Teaching data
+
+institutions:
+  - name: University of Melbourne
+    courses:
+      - code: COMP90082
+        title: Software Project
+        level: postgraduate
+        desc: Capstone subject — industry-partnered software engineering projects in teams.
+        years: "2023 – 2026"
+        url:
+
+      - code: COMP90055
+        title: Computing Project
+        level: postgraduate
+        desc: Independent research projects supervised by academic staff.
+        years: "2022 – 2026"
+        url:
+
+      - code: COMP30019
+        title: Graphics and Interaction
+        level: undergraduate
+        desc: Fundamentals of 3D graphics, real-time rendering, and interactive system design.
+        years: "2022 – 2025"
+        url:
+
+      - code: COMP90042
+        title: Natural Language Processing
+        level: postgraduate
+        desc: Core NLP methods — guest lectures on embodied language understanding.
+        years: "2023"
+        url:
+
+  - name: EPFL
+    courses:
+      - code: CS-448
+        title: Sublinear Algorithms for Big Data
+        level: postgraduate
+        desc: Guest lecturer on human-in-the-loop data collection and annotation at scale.
+        years: "2021"
+        url:
+
+      - code: HUM-432
+        title: How People Learn
+        level: undergraduate
+        desc: Interdisciplinary course on cognitive science, pedagogy, and technology-enhanced learning. Co-taught within the CHILI lab.
+        years: "2019 – 2022"
+        url:
+
+topics:
+  - name: Learning from Demonstration with Corrective Feedback
+    status: open
+
+  - name: Gesture & Expressivity in Culturally-Diverse HRI
+    status: open
+
+  - name: Augmented Reality Interfaces for Robot Task Specification
+    status: open
+
+  - name: Social Robots in Aged Care Settings
+    status: open
+
+  - name: Child-Robot Interaction in STEM Education
+    status: available

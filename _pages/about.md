@@ -2,28 +2,26 @@
 layout: about
 title: About
 permalink: /
-subtitle: ''
+subtitle: 'Associate Professor · University of Melbourne'
 
 profile:
   align: left
   image: WafaJ.jpg
-  image_circular: true # crops the image to make it circular
-  more_info: '' # Melbourne Connect 700 Swanston Street 3053 Carlton, VIC, Australia
+  image_circular: true
 
-news: true # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+research_line: 'Human-robot interaction &nbsp;·&nbsp; Learning from demonstration &nbsp;·&nbsp; Social robotics &nbsp;·&nbsp; Tangible robots &amp; haptics'
+
+bio_links:
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=ZbWcKUoAAAAJ
+  - label: CHRI Lab
+    url: https://chri-lab.github.io/
+  - label: DBLP
+    url: https://dblp.org/pid/144/5582.html
+
+news: false
+selected_papers: true
+social: false
 ---
 
-Associate Professor at the School of Computing & Information Systems, Faculty of Engineering and Information Technology, University of Melbourne.
-
-Previously I was a researcher at the CHILI️ Lab and Mobot Group at EPFL. I hold a PhD in Computer Sciences from the University of Grenoble Alps. My research aims at creating acceptable and useful assistive robot interactions using social signal sensing, affective and cognitive reasonning and natural expressivity. My latest work has investigated the use of tangible robots in education and rehabiliation.
-
-My research interests are: 
-
-- Human-Robot Collaboration
-- Human-Robot Communication
-- Robots for Learning
-- Learning from Demonstration
-- Tangible robots and Haptics
-- Social robotics
+I design robot systems that are **useful and accepted** in the real world — in classrooms, clinics, and collaborative workspaces. My research spans social signal sensing, affective reasoning, and natural expressivity. My latest work focuses on **robots that learn from human demonstration** and **mixed-reality interfaces** for intuitive human-robot interaction. Previously at [EPFL](https://www.epfl.ch). PhD from Université Grenoble-Alpes.
