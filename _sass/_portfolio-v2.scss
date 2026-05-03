@@ -210,63 +210,52 @@ footer {
   }
 }
 
-// ─── Selected Publications (homepage) ────────────────────────────────────────
-.pv2-selected-pubs {
-  // Override the al-folio .publications styles
-  .publications {
-    margin-top: 0 !important;
-  }
+// ─── Shared publication styles (both homepage and full list) ─────────────────
+// Works within al-folio's Bootstrap grid — does NOT touch display on .row/.col-*
+
+.publications {
+  margin-top: 0 !important;
 
   ol.bibliography {
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 4px 0 0 !important;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 
     li {
-      display: flex;
-      gap: 22px;
-      padding: 24px 0 !important;
-      border-bottom: 1px solid var(--pv2-border) !important;
+      padding: 22px 0;
+      border-bottom: 1px solid var(--pv2-border);
       margin-bottom: 0 !important;
 
-      // Hide the Bootstrap column wrapping from al-folio
-      .row { display: contents; }
-      .col-sm-2, .col-sm-10 { display: contents; }
-
-      // Venue/abbr badge
+      // Venue badge — transparent background, accent text
       .abbr {
         height: auto !important;
-        margin-bottom: 0 !important;
-        flex-shrink: 0;
 
         abbr {
           background: transparent !important;
           color: var(--pv2-accent) !important;
-          font-size: 11px !important;
-          font-weight: 600 !important;
-          letter-spacing: 0.4px !important;
+          font-size: 10.5px !important;
+          font-weight: 700 !important;
+          letter-spacing: 0.5px !important;
           text-transform: uppercase !important;
-          padding: 0 !important;
-          display: block;
-          white-space: nowrap;
-          width: auto !important;
+          padding: 3px 8px !important;
+          border: 1px solid var(--pv2-accent) !important;
+          border-radius: 4px !important;
+          display: inline-block;
 
-          a { color: var(--pv2-accent) !important; }
+          a {
+            color: var(--pv2-accent) !important;
+            &:hover { text-decoration: none; }
+          }
         }
-      }
-
-      .pub-content-wrap {
-        flex: 1;
-        min-width: 0;
       }
 
       // Title
       .title {
-        font-size: 14px !important;
+        font-size: 14.5px !important;
         font-weight: 500 !important;
         line-height: 1.45 !important;
         color: var(--global-text-color) !important;
-        margin-bottom: 10px !important;
+        margin-bottom: 6px !important;
 
         a {
           color: inherit !important;
@@ -275,7 +264,7 @@ footer {
         }
       }
 
-      // Author line — "me" is wrapped in <em>
+      // Authors — self highlighted in accent
       .author {
         font-size: 12.5px !important;
         color: var(--pv2-muted) !important;
@@ -292,44 +281,92 @@ footer {
         a {
           border-bottom: none !important;
           color: var(--pv2-muted) !important;
-          &:hover { color: var(--pv2-accent) !important; }
+          &:hover {
+            color: var(--pv2-accent) !important;
+            border-bottom: none !important;
+          }
+        }
+
+        > span.more-authors {
+          border-bottom: none !important;
+          color: var(--pv2-muted) !important;
         }
       }
 
-      // Venue/periodical
-      .periodical {
-        font-size: 12px;
-        color: var(--pv2-muted);
-      }
+      .periodical { font-size: 12px; color: var(--pv2-muted); }
 
-      // Links row (PDF, DOI, etc.)
+      // Buttons — Bib, PDF, Code, etc.
       .links {
-        margin-top: 8px;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
 
         a.btn {
-          font-size: 11px !important;
+          font-size: 10.5px !important;
           font-weight: 600 !important;
-          letter-spacing: 0.3px !important;
+          letter-spacing: 0.4px !important;
+          text-transform: uppercase !important;
           padding: 3px 10px !important;
           border-radius: 4px !important;
           border: 1px solid var(--pv2-border) !important;
           color: var(--pv2-muted) !important;
           background: transparent !important;
-          text-transform: uppercase !important;
           transition: all 0.15s;
-          margin-right: 6px;
+          margin: 0 !important;
+          line-height: 1.6;
 
           &:hover {
             color: var(--pv2-accent) !important;
             border-color: var(--pv2-accent) !important;
+            background: transparent !important;
+            text-decoration: none;
           }
+        }
+
+        // Bib button gets a slightly different style when bibtex is visible
+        a.bibtex.btn { }
+      }
+
+      // BibTeX / Abstract / Video toggle blocks
+      .hidden {
+        font-size: 13px !important;
+        background: var(--pv2-bg2);
+        border: 1px solid var(--pv2-border) !important;
+        border-radius: 6px;
+        margin-top: 12px;
+
+        pre {
+          font-size: 12.5px !important;
+          line-height: 1.6 !important;
+          padding: 16px !important;
+          margin: 0 !important;
+          background: transparent !important;
+          border: none !important;
+          user-select: all; // easy copy-select
+        }
+
+        p {
+          padding: 14px 16px;
+          margin: 0;
+          font-size: 13px;
+          line-height: 1.65;
+          color: var(--pv2-muted);
         }
       }
 
-      // Publication badges (Altmetric etc.) — hide on homepage
-      .badges { display: none; }
+      div.abstract.hidden.open { border-color: var(--pv2-border) !important; }
+      div.bibtex.hidden.open { border-color: var(--pv2-accent) !important; }
     }
   }
+}
+
+// ─── Selected Publications (homepage) ────────────────────────────────────────
+.pv2-selected-pubs {
+  .publications { margin-top: 0 !important; }
+
+  // Hide Altmetric/Dimensions badges on homepage
+  ol.bibliography li .badges { display: none; }
 }
 
 .pv2-more-pubs {
@@ -424,93 +461,8 @@ footer {
     margin-top: 0 !important;
   }
 
-  // Publication entries — editorial style
-  ol.bibliography li {
-    display: grid !important;
-    grid-template-columns: 90px 1fr !important;
-    gap: 0 28px !important;
-    padding: 24px 0 !important;
-    border-bottom: 1px solid var(--pv2-border) !important;
-    margin-bottom: 0 !important;
-
-    &:first-of-type { border-top: 1px solid var(--pv2-border); }
-
-    .row { display: contents; }
-    .col-sm-2, .col-sm-10 { display: contents; }
-
-    .abbr {
-      height: auto !important;
-      margin-bottom: 0 !important;
-
-      abbr {
-        background: transparent !important;
-        color: var(--pv2-accent) !important;
-        font-size: 10.5px !important;
-        font-weight: 700 !important;
-        letter-spacing: 0.5px !important;
-        text-transform: uppercase !important;
-        padding: 0 !important;
-        width: auto !important;
-        display: block;
-        line-height: 1.4;
-
-        a { color: var(--pv2-accent) !important; }
-      }
-    }
-
-    .title {
-      font-size: 15px !important;
-      font-weight: 500 !important;
-      line-height: 1.45 !important;
-      color: var(--global-text-color) !important;
-      margin-bottom: 8px !important;
-
-      a {
-        color: inherit !important;
-        text-decoration: none !important;
-        &:hover { color: var(--pv2-accent) !important; }
-      }
-    }
-
-    .author {
-      font-size: 12.5px !important;
-      color: var(--pv2-muted) !important;
-      margin-bottom: 8px !important;
-
-      > em {
-        font-style: normal !important;
-        color: var(--pv2-accent) !important;
-        font-weight: 500 !important;
-        border-bottom: none !important;
-      }
-
-      a {
-        border-bottom: none !important;
-        color: var(--pv2-muted) !important;
-        &:hover { color: var(--pv2-accent) !important; }
-      }
-    }
-
-    .periodical { font-size: 12px; color: var(--pv2-muted); }
-
-    .links a.btn {
-      font-size: 11px !important;
-      font-weight: 600 !important;
-      padding: 3px 10px !important;
-      border-radius: 4px !important;
-      border: 1px solid var(--pv2-border) !important;
-      color: var(--pv2-muted) !important;
-      background: transparent !important;
-      text-transform: uppercase !important;
-      transition: all 0.15s;
-      margin-right: 6px;
-
-      &:hover {
-        color: var(--pv2-accent) !important;
-        border-color: var(--pv2-accent) !important;
-      }
-    }
-  }
+  // Year headings override — left-aligned large numerals
+  ol.bibliography li:first-of-type { border-top: 1px solid var(--pv2-border); }
 }
 
 // ─── Teaching page ────────────────────────────────────────────────────────────
