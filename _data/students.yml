@@ -4,25 +4,19 @@ current:
   - name: Ramtin Tabatabaei
     level: PhD Candidate
     topic: Robot failure recovery and consistency in human-robot collaboration.
-    enrolled: 2021
+    enrolled: 2023
     institution: University of Melbourne
 
   - name: Muhammad Bilal
     level: PhD Candidate
     topic: Quality metrics and interactive feedback for learning from demonstration.
-    enrolled: 2022
+    enrolled: 2023
     institution: University of Melbourne
 
   - name: Jian Zhang
     level: PhD Candidate
     topic: Visuo-haptic perception modelling for robot-mediated interaction.
-    enrolled: 2022
-    institution: University of Melbourne
-
-  - name: Yixin Shen
-    level: PhD Candidate
-    topic: Culturally-aware co-speech gesture generation for social robots.
-    enrolled: 2023
+    enrolled: 2024
     institution: University of Melbourne
 
   - name: Sarah Schombs
@@ -31,10 +25,39 @@ current:
     enrolled: 2023
     institution: University of Melbourne
 
-  - name: Qiushi Zhou
-    level: PhD Student
-    topic: Mixed reality interfaces for intuitive human-robot collaboration.
+  - name: Yan Zhang
+    level: PhD Candidate
+    topic: Implicit Communcation in human-robot collaboration.
+    enrolled: 2023
+    institution: University of Melbourne
+
+  - name: Tharaka
+    level: PhD Candidate
+    topic: Haptics for mindfulness
     enrolled: 2024
     institution: University of Melbourne
 
-past: []
+  - name: Farshad
+    level: PhD Candidate
+    topic: Shared control for Robot Teleoperation
+    enrolled: 2024
+    institution: University of Melbourne
+
+  - name: Enjie
+    level: PhD Candidate
+    topic: XR for Lower Limb Gait Rehabilitation with Prosthetics
+    enrolled: 2024
+    institution: University of Melbourne
+
+
+
+
+past: [
+  - name: Yixin Shen
+    topic: Culturally-aware co-speech gesture generation for social robots.
+    enrolled: 2023
+    institution: University of Melbourne
+
+
+
+]
