@@ -3,7 +3,7 @@ layout: page
 title: Publications
 permalink: /publications/
 description: >
-  Peer-reviewed papers in human-robot interaction, learning from demonstration, social robotics, and haptics.
+  Peer-reviewed papers in human-robot interaction, human-AI interaction, learning from demonstration, social robotics, and haptics.
 nav: true
 nav_order: 1
 ---
