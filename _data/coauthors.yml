@@ -1,31 +1,616 @@
 # _data/coauthors.yml
 # Al-folio uses this to auto-link co-author names to their homepages.
-# Format: lastname (lowercase) with firstname variants
+# Key format: "Lastname, Firstname" — must match BibTeX author exactly.
+# 'affiliation' is a bonus field (not used by al-folio by default, but useful
+# for custom templates / reference). Last updated: May 2026.
 
-"tabatabaei":
-  - firstname: ["Ramtin"]
-    url: https://scholar.google.com
+# ── A ──────────────────────────────────────────────────────────────────────────
+"Abdikarimova, Manshuk":
+  href:
+  affiliation: Nazarbayev University, Kazakhstan
 
-"kostakos":
-  - firstname: ["Vassilis"]
-    url: https://people.eng.unimelb.edu.au/vassilis/
+"Admoni, Henny":
+  href: https://hennyadmoni.com/
+  affiliation: Associate Professor, Robotics Institute, Carnegie Mellon University, USA
 
-"knibbe":
-  - firstname: ["Jarrod"]
-    url: https://cis.unimelb.edu.au/people/jarrod-knibbe
+"Alami, Rachid":
+  href:
+  affiliation: Senior Scientist, LAAS-CNRS, France
 
-"lipovetzky":
-  - firstname: ["Nir"]
-    url: https://nirlipo.github.io/
+"Amirova, Aida":
+  href:
+  affiliation: Researcher, Nazarbayev University, Kazakhstan
 
-"oetomo":
-  - firstname: ["Denny"]
-    url: https://findanexpert.unimelb.edu.au/profile/4779-denny-oetomo
+"Andersen, Sonia":
+  href:
+  affiliation:
 
-"johal":
-  - firstname: ["Wafa", "W.", "W. Johal"]
-    url: https://wafa.johal.org
+"Anzalone, Salvatore Maria":
+  href:
+  affiliation: Associate Professor, Université Paris 8, France
 
-"schombs":
-  - firstname: ["Sarah", "S.", "B. Y."]
-    url:
+"Archambault, Dominique":
+  href:
+  affiliation: Professor, Université Paris 8, France
+
+"Asselborn, Thibault":
+  href:
+  affiliation: PhD Researcher, EPFL, Switzerland
+
+# ── B ──────────────────────────────────────────────────────────────────────────
+"Bai, Zhongyi":
+  href:
+  affiliation: PhD Student, University of Melbourne, Australia
+
+"Baimakhan, Nurakhmet":
+  href:
+  affiliation: Nazarbayev University, Kazakhstan
+
+"Balaska, Audrey":
+  href:
+  affiliation: PhD Student, University of Melbourne, Australia
+
+"Balgabekova, Zarema":
+  href:
+  affiliation: Nazarbayev University, Kazakhstan
+
+"Ballard, Timothy":
+  href:
+  affiliation: Associate Professor, University of Queensland, Australia
+
+"Bardy, Benoît":
+  href:
+  affiliation: Professor, University of Montpellier, France
+
+"Belpaeme, Tony":
+  href: https://tonybelpaeme.me/
+  affiliation: Professor, Ghent University / imec, Belgium
+
+"Bilal, Muhammad":
+  href:
+  affiliation: PhD Student, University of Melbourne, Australia
+
+"Billinghurst, Mark":
+  href:
+  affiliation: Professor, University of South Australia & University of Auckland, Australia / New Zealand
+
+"Bruno, Barbara":
+  href: https://sarai.iar.kit.edu/
+  affiliation: Professor, Karlsruhe Institute of Technology (KIT), Germany
+
+"Buckingham, Gavin":
+  href: https://experts.exeter.ac.uk/25293-gavin-buckingham
+  affiliation: Associate Professor, University of Exeter, UK
+
+"Burdet, Etienne":
+  href:
+  affiliation: Professor, Imperial College London, UK
+
+"Burnett, Gary":
+  href:
+  affiliation: Professor, University of Nottingham, UK
+
+"Burunchina, Karina":
+  href:
+  affiliation: Nazarbayev University, Kazakhstan
+
+# ── C ──────────────────────────────────────────────────────────────────────────
+"Cadic-Melchior, Andéol Geoffroy":
+  href:
+  affiliation: Researcher, EPFL / CHUV, Switzerland
+
+"Casteran, Laurence":
+  href:
+  affiliation:
+
+"Chacon, D. Antony":
+  href:
+  affiliation: PhD Researcher, University of Melbourne, Australia
+
+"Chen, Jiahao":
+  href:
+  affiliation: PhD Student, University of Melbourne, Australia
+
+"Chevalier, Morgane":
+  href:
+  affiliation:
+
+"Chetouani, Mohamed":
+  href: https://www.isir.upmc.fr/personnel/chetouani/
+  affiliation: Professor, ISIR, Sorbonne University, France
+
+"Chibaudel, Quentin":
+  href:
+  affiliation:
+
+"Cohen, David":
+  href:
+  affiliation: Professor of Child Psychiatry, Sorbonne University, France
+
+"CohenMiller, Anna":
+  href:
+  affiliation: Associate Professor, Nazarbayev University, Kazakhstan
+
+"Collins, Catherine":
+  href:
+  affiliation: Professor, Australian National University, Australia
+
+"Couto, Marta":
+  href:
+  affiliation: Researcher, INESC-ID / University of Lisbon, Portugal
+
+"Curioni, Arianna":
+  href:
+  affiliation: Researcher, Central European University, Hungary
+
+# ── D ──────────────────────────────────────────────────────────────────────────
+"De Graaf, Maartje":
+  href:
+  affiliation: Associate Professor, Utrecht University, Netherlands
+
+"Dillenbourg, Pierre":
+  href: https://people.epfl.ch/pierre.dillenbourg
+  affiliation: Professor, EPFL, Switzerland
+
+"Dogan, Fethiye Irmak":
+  href:
+  affiliation: Postdoctoral Researcher, University of Cambridge, UK
+
+"Dollard, Maureen":
+  href:
+  affiliation: Professor, University of South Australia, Australia
+
+"Dominijanni, Giulia":
+  href:
+  affiliation:
+
+# ── E ──────────────────────────────────────────────────────────────────────────
+"Eden, Jonathan":
+  href: https://findanexpert.unimelb.edu.au/profile/453579-jonathan-eden
+  affiliation: Senior Lecturer, University of Melbourne, Australia
+
+"Eyssel, Friederike":
+  href:
+  affiliation: Professor, Bielefeld University, Germany
+
+# ── F ──────────────────────────────────────────────────────────────────────────
+"Figueroa, Nadia":
+  href:
+  affiliation: Assistant Professor, University of Pennsylvania, USA
+
+"Fourie, Christopher":
+  href:
+  affiliation:
+
+# ── G ──────────────────────────────────────────────────────────────────────────
+"Gamboa, Mafalda":
+  href:
+  affiliation:
+
+"Gargot, Thomas":
+  href:
+  affiliation: Researcher, Sorbonne University (Child Psychiatry), France
+
+"Gatos, Doğa":
+  href:
+  affiliation: Koç University, Turkey
+
+"Gillet, Sarah":
+  href:
+  affiliation: PhD Researcher, EPFL, Switzerland
+
+"Golding, Adam":
+  href:
+  affiliation: PhD Student, UNSW Sydney, Australia
+
+"Goncalves, Jorge":
+  href: https://www.jorgegoncalves.com/
+  affiliation: Associate Professor, University of Melbourne, Australia
+
+"Griffin, Mark A":
+  href:
+  affiliation: Professor, University of Western Australia, Australia
+
+"Gronbaek, Jens Emil Sloth":
+  href: https://jensemil.dk/
+  affiliation: Assistant Professor, Aarhus University, Denmark
+
+"Guneysu Ozgur, Arzu":
+  href: https://scholar.google.com/citations?user=Aht2DEwAAAAJ
+  affiliation: Associate Professor, Umeå University, Sweden
+
+# ── H ──────────────────────────────────────────────────────────────────────────
+"Hummel, Friedhelm C":
+  href:
+  affiliation: Professor, EPFL / CHUV, Switzerland
+
+# ── I ──────────────────────────────────────────────────────────────────────────
+"Ingle, Daisy":
+  href:
+  affiliation: PhD Student, UNSW Sydney, Australia
+
+# ── J ──────────────────────────────────────────────────────────────────────────
+"Jolly, Caroline":
+  href:
+  affiliation:
+
+"Jouffrais, Christophe":
+  href:
+  affiliation: Professor, IRIT, University of Toulouse, France
+
+"Jorritsma, Karina":
+  href:
+  affiliation: Senior Analyst, RAND Corporation, Australia
+
+# ── K ──────────────────────────────────────────────────────────────────────────
+"Kelesbekov, Ulan":
+  href:
+  affiliation: PhD Student, University of Melbourne, Australia
+
+"Khodr, Hala":
+  href:
+  affiliation: PhD Student, EPFL, Switzerland
+
+"Kianzad, Soheil":
+  href:
+  affiliation: Researcher, EPFL, Switzerland
+
+"Knibbe, Jarrod":
+  href: https://cis.unimelb.edu.au/people/jarrod-knibbe
+  affiliation: Associate Professor, University of Melbourne, Australia
+
+"Knoblich, Günther":
+  href:
+  affiliation: Professor, Central European University, Hungary
+
+"Kostakos, Vassilis":
+  href: https://people.eng.unimelb.edu.au/vassilis/
+  affiliation: Professor, University of Melbourne, Australia
+
+"Kothiyal, Aditi":
+  href:
+  affiliation: Researcher, EPFL, Switzerland
+
+"Kowalkiewicz, Marek":
+  href:
+  affiliation: Professor, Queensland University of Technology, Australia
+
+"Kudaibergenov, Kuanysh":
+  href:
+  affiliation: Nazarbayev University, Kazakhstan
+
+"Kyndt, Eva":
+  href:
+  affiliation: Professor, KU Leuven, Belgium
+
+# ── L ──────────────────────────────────────────────────────────────────────────
+"Leite, Iolanda":
+  href: https://iolandaleite.com/
+  affiliation: Associate Professor, KTH Royal Institute of Technology, Sweden
+
+"Lemaignan, Séverin":
+  href: https://academia.skadge.org/
+  affiliation: Research Scientist, IIIA-CSIC, Spain
+
+"Levy-Tzedek, Shelly":
+  href:
+  affiliation: Associate Professor, Ben-Gurion University of the Negev, Israel
+
+"Li, Haoqi":
+  href:
+  affiliation: PhD Student, University of Melbourne, Australia
+
+"Lipovetzky, Nir":
+  href: https://nirlipo.github.io/
+  affiliation: Associate Professor, University of Melbourne, Australia
+
+"Liu, Carson Yu":
+  href:
+  affiliation: PhD Student, UNSW Sydney, Australia
+
+"Liu, Yu":
+  href:
+  affiliation: PhD Student, UNSW Sydney, Australia
+
+"Ljungblad, Sara":
+  href:
+  affiliation: Associate Professor, University of Gothenburg, Sweden
+
+"Lugrin, Birgit":
+  href:
+  affiliation: Professor, University of Würzburg, Germany
+
+# ── M ──────────────────────────────────────────────────────────────────────────
+"Macé, Marc J-M":
+  href:
+  affiliation: Professor, IRIT, University of Toulouse, France
+
+"Marcus, Nadine":
+  href:
+  affiliation: Associate Professor, UNSW Sydney, Australia
+
+"Marini, Gabriele":
+  href:
+  affiliation: PhD Student, University of Melbourne, Australia
+
+"McBride, Catherine":
+  href:
+  affiliation: Professor, Purdue University, USA
+
+"Mi, Haipeng":
+  href:
+  affiliation: Professor, Tongji University, China
+
+"Mohammadi, Gelareh":
+  href: https://research.unsw.edu.au/people/associate-professor-gelareh-mohammadi
+  affiliation: Associate Professor, UNSW Sydney, Australia
+
+"Mondada, Francesco":
+  href: https://people.epfl.ch/francesco.mondada
+  affiliation: Professor, EPFL, Switzerland
+
+"Mühl, Andreas":
+  href:
+  affiliation: CHUV, Lausanne, Switzerland
+
+"Mubin, Omar":
+  href:
+  affiliation: Associate Professor, Western Sydney University, Australia
+
+# ── N ──────────────────────────────────────────────────────────────────────────
+"Nasir, Jauwairia":
+  href:
+  affiliation: Postdoctoral Researcher, University of Augsburg, Germany
+
+"Neto, Isabel":
+  href:
+  affiliation: Researcher, University of Lisbon, Portugal
+
+"Nicolau, Hugo":
+  href:
+  affiliation: Associate Professor, Técnico Lisboa, Portugal
+
+"Nurmukhamed, Mukhamedzhan":
+  href:
+  affiliation: Nazarbayev University, Kazakhstan
+
+# ── O ──────────────────────────────────────────────────────────────────────────
+"Obaid, Mohammad":
+  href:
+  affiliation: Associate Professor, Chalmers University of Technology, Sweden
+
+"Oetomo, Denny":
+  href: https://findanexpert.unimelb.edu.au/profile/4779-denny-oetomo
+  affiliation: Professor, University of Melbourne, Australia
+
+"Olsen, Jennifer K":
+  href: https://jenniferkolsen.com/
+  affiliation: Associate Professor, University of Utah, USA
+
+"Oriola, Bernard":
+  href:
+  affiliation: Professor, University of Toulouse, France
+
+"Ozgur, Ayberk":
+  href: https://www.ayberkozgur.com/
+  affiliation: Senior Embedded Systems Engineer, Industry (formerly EPFL), Switzerland
+
+# ── P ──────────────────────────────────────────────────────────────────────────
+"Paiva, Ana":
+  href: https://ana-paiva.com/
+  affiliation: Professor, Instituto Superior Técnico, University of Lisbon, Portugal
+
+"Pan, Jiahe":
+  href: https://mpan31415.github.io/
+  affiliation: MSc Student, UC Berkeley / ETH Zurich, USA / Switzerland
+
+"Pareek, Saumya":
+  href:
+  affiliation: PhD Student, University of Melbourne, Australia
+
+"Parker, Sharon K":
+  href:
+  affiliation: John Curtin Distinguished Professor, Curtin University, Australia
+
+"Pellerin, Hugues":
+  href:
+  affiliation:
+
+"Peng, Yu":
+  href:
+  affiliation: Researcher, Tongji University, China
+
+"Phaijit, Ornnalin":
+  href:
+  affiliation: PhD Student, UNSW Sydney, Australia
+
+# ── R ──────────────────────────────────────────────────────────────────────────
+"Rakhymbayeva, Nazerke":
+  href:
+  affiliation: Researcher, Nazarbayev University, Kazakhstan
+
+"Ratnayake, Tharaka Sachintha":
+  href:
+  affiliation: PhD Student, University of Melbourne, Australia
+
+"Romeo, Marta":
+  href:
+  affiliation: Research Associate, University of Sheffield, UK
+
+"Rost, Mattias":
+  href:
+  affiliation: Associate Professor, University of Gothenburg, Sweden
+
+# ── S ──────────────────────────────────────────────────────────────────────────
+"Said, Alan":
+  href:
+  affiliation: Associate Professor, University of Gothenburg, Sweden
+
+"Sammut, Claude":
+  href: https://cgi.cse.unsw.edu.au/~claude/
+  affiliation: Professor, UNSW Sydney, Australia
+
+"Sandygulova, Anara":
+  href: https://research.nu.edu.kz/en/persons/anara-sandygulova/
+  affiliation: Associate Professor, Nazarbayev University, Kazakhstan
+
+"Schömbs, Sarah":
+  href: https://sites.google.com/view/sarahschombs/
+  affiliation: PhD Candidate, University of Melbourne, Australia
+
+"Sew, Cherie":
+  href:
+  affiliation: PhD Student, University of Melbourne, Australia
+
+"Shah, Julie":
+  href:
+  affiliation: Professor, MIT, USA
+
+"Sharma, Kshitij":
+  href:
+  affiliation: Associate Professor, NTNU, Norway
+
+"Shen, Yixin":
+  href:
+  affiliation: PhD Student, University of Melbourne, Australia
+
+"Singamaneni, Phani Teja":
+  href:
+  affiliation: Researcher, INRIA, France
+
+"Skweres, Melissa":
+  href:
+  affiliation:
+
+"Song, Yang":
+  href: https://cgi.cse.unsw.edu.au/~ysong/
+  affiliation: Scientia Associate Professor, UNSW Sydney, Australia
+
+"Szafir, Daniel":
+  href: https://www.danszafir.com/
+  affiliation: Associate Professor, UNC Chapel Hill, USA
+
+# ── T ──────────────────────────────────────────────────────────────────────────
+"Tabatabaei, Ramtin":
+  href: https://ramtin-tabatabaei.github.io/
+  affiliation: PhD Student, University of Melbourne, Australia
+
+"Tartas, Valérie":
+  href:
+  affiliation: Professor, University of Toulouse, France
+
+"Tatar, Kıvanç":
+  href:
+  affiliation: Assistant Professor, Concordia University, Canada
+
+"Telisheva, Zhansaule":
+  href:
+  affiliation: Researcher, Nazarbayev University, Kazakhstan
+
+"Tleubayev, Bolat":
+  href:
+  affiliation: Researcher, Nazarbayev University, Kazakhstan
+
+"Tozadore, Daniel C":
+  href:
+  affiliation: Postdoctoral Researcher, EPFL, Switzerland
+
+"Tran, Alex":
+  href:
+  affiliation: Researcher, EPFL, Switzerland
+
+"Turarova, Aizada":
+  href:
+  affiliation: Nazarbayev University, Kazakhstan
+
+"Turlan, Jean-Luc":
+  href:
+  affiliation: CHUV, Lausanne, Switzerland
+
+# ── V ──────────────────────────────────────────────────────────────────────────
+"van den Berghe, Rianne":
+  href:
+  affiliation: Postdoctoral Researcher, Utrecht University, Netherlands
+
+"Velloso, Eduardo":
+  href: https://www.eduardovelloso.com/
+  affiliation: Professor, University of Sydney, Australia
+
+"Volodin, Sergei":
+  href:
+  affiliation: Researcher, EPFL, Switzerland
+
+"Vuadens, Philippe":
+  href:
+  affiliation: CHUV, Lausanne, Switzerland
+
+# ── W ──────────────────────────────────────────────────────────────────────────
+"Wang, Canghai":
+  href:
+  affiliation: PhD Student, University of Melbourne, Australia
+
+"Weilenmann, Alexandra":
+  href:
+  affiliation: Professor, University of Gothenburg, Sweden
+
+"Wessel, Maximilian J":
+  href:
+  affiliation: Researcher, EPFL, Switzerland
+
+"Wiberg, Mikael":
+  href:
+  affiliation: Professor, Umeå University, Sweden
+
+# ── Y ──────────────────────────────────────────────────────────────────────────
+"Yadollahi, Elmira":
+  href: https://elmirayadollahi.com/
+  affiliation: Assistant Professor, Lancaster University, UK
+
+"Yantac, Asim Evren":
+  href:
+  affiliation: Professor, Koç University, Turkey
+
+"Yu, Yueteng":
+  href:
+  affiliation: PhD Student, University of Nottingham / University of Melbourne, UK / Australia
+
+# ── Z ──────────────────────────────────────────────────────────────────────────
+"Zammouri, Ingrid":
+  href:
+  affiliation:
+
+"Zawieska, Karolina":
+  href:
+  affiliation: Researcher, Aarhus University, Denmark
+
+"Zhang, Chuhan":
+  href:
+  affiliation: PhD Student, University of Melbourne, Australia
+
+"Zhang, Jian":
+  href:
+  affiliation: PhD Student, University of Melbourne, Australia
+
+"Zhang, Yan":
+  href: https://yzhang2332.github.io/
+  affiliation: PhD Student, University of Melbourne, Australia
+
+"Zhanatkyzy, Aida":
+  href:
+  affiliation: Research Assistant, Nazarbayev University, Kazakhstan
+
+"Zhexenova, Zhanel":
+  href:
+  affiliation: Researcher, Nazarbayev University, Kazakhstan
+
+"Zhou, Qiushi":
+  href: https://qiushi-zhou.github.io/
+  affiliation: Assistant Professor, HKUST (Guangzhou), China
+
+"Zolna, Konrad":
+  href:
+  affiliation: Research Scientist, Google DeepMind, UK
+
+"Zufferey, Valérie":
+  href:
+  affiliation: Researcher, CHUV, Lausanne, Switzerland
