@@ -36,7 +36,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@086ffb1a2090c870a3f881cc91ea83aa4243d408
         with:
-          ruby-version: '3.4' # sass-embedded 1.100+ requires JSON::Fragment (Ruby 3.4+)
+          ruby-version: '3.4.0' # sass-embedded 1.100+ requires JSON::Fragment (Ruby 3.4+)
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 1 # Incremented to bust gem cache after Ruby version upgrade
       - name: Setup Pages
