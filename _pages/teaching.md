@@ -10,11 +10,11 @@ nav_order: 4
 
 <div class="page-header-v2">
   <h1>Teaching</h1>
-  <p>Courses taught at the University of Melbourne and previously at EPFL. I supervise PhD and Honours students working on human-robot interaction, robot learning, and social robotics.</p>
+  <p>Courses taught at the University of Melbourne, UNSW, and EPFL. I supervise PhD and MPhil students working on human-robot interaction, robot learning, social robotics, and haptics.</p>
 </div>
 
 {% for institution in site.data.teaching.institutions %}
-<div class="pv2-sec-title">{{ institution.name }}</div>
+<div class="pv2-sec-title">{{ institution.name }}{% if institution.years %} <span style="font-weight:400;letter-spacing:0">· {{ institution.years }}</span>{% endif %}</div>
 <div class="course-block">
   {% for course in institution.courses %}
   <div class="course-row">
@@ -30,17 +30,31 @@ nav_order: 4
 </div>
 {% endfor %}
 
-<div class="pv2-sec-title">Current PhD Students</div>
+<div class="pv2-sec-title">Current Students</div>
 <div class="students-grid">
   {% for student in site.data.students.current %}
   <div class="student-card">
-    <div class="student-name">{{ student.name }}</div>
+    <div class="student-name">{{ student.name }}{% if student.primary %} <span style="color:var(--pv2-accent);font-size:10px" title="Primary supervisor">★</span>{% endif %}</div>
     <div class="student-level">{{ student.level }}</div>
     <div class="student-topic">{{ student.topic }}</div>
-    <div class="student-cohort">Enrolled {{ student.enrolled }} · {{ student.institution }}</div>
+    <div class="student-cohort">{{ student.enrolled }}– · {{ student.institution }}</div>
   </div>
   {% endfor %}
 </div>
+
+{% if site.data.students.past and site.data.students.past.size > 0 %}
+<div class="pv2-sec-title">Past Students</div>
+<div class="students-grid">
+  {% for student in site.data.students.past %}
+  <div class="student-card" style="opacity:0.8">
+    <div class="student-name">{{ student.name }}</div>
+    <div class="student-level">{{ student.level }}</div>
+    <div class="student-topic">{{ student.topic }}</div>
+    <div class="student-cohort">{{ student.years }} · {{ student.institution }}</div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
 
 <div class="pv2-sec-title">Open Research Topics</div>
 <div class="topics-list">

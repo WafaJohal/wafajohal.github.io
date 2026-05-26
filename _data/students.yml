@@ -1,55 +1,90 @@
-# Current and past PhD students
+# PhD/MPhil students — source of truth: cv_wafajohal/sections/supervision.tex
+# * = primary supervisor
 
 current:
-  - name: Ramtin Tabatabaei
-    level: PhD Candidate
-    topic: Robot failure recovery and consistency in human-robot collaboration.
-    enrolled: 2023
-    institution: University of Melbourne
+  - name: Enjie Cao
+    level: PhD Student
+    topic: XR for Lower Limb Gait Rehabilitation
+    enrolled: 2025
+    institution: ME, University of Melbourne
 
-  - name: Muhammad Bilal
-    level: PhD Candidate
-    topic: Quality metrics and interactive feedback for learning from demonstration.
-    enrolled: 2023
-    institution: University of Melbourne
+  - name: Farshad Daryakenari
+    level: PhD Student
+    topic: Shared Control in Robot Teleoperation
+    enrolled: 2024
+    institution: ME, University of Melbourne
+
+  - name: Tharaka Ratnayake
+    level: PhD Student
+    primary: true
+    topic: Tangible Interfaces for Mindfulness
+    enrolled: 2024
+    institution: CIS, University of Melbourne
+
+  - name: Josephine Delore
+    level: MPhil Student
+    primary: true
+    topic: Optimisation for Agent Advice in Decision Making
+    enrolled: 2024
+    institution: CIS, University of Melbourne
 
   - name: Jian Zhang
     level: PhD Candidate
-    topic: Visuo-haptic perception modelling for robot-mediated interaction.
+    primary: true
+    topic: Haptic Illusion Tools for Virtual Reality
     enrolled: 2024
-    institution: University of Melbourne
-
-  - name: Sarah Schombs
-    level: PhD Student
-    topic: Tangible robots and haptic interfaces in early childhood education.
-    enrolled: 2023
-    institution: University of Melbourne
+    institution: CIS, University of Melbourne
 
   - name: Yan Zhang
     level: PhD Candidate
-    topic: Implicit Communcation in human-robot collaboration.
+    primary: true
+    topic: Implicit Behaviours for Human-Robot Collaboration
     enrolled: 2023
-    institution: University of Melbourne
+    institution: CIS, University of Melbourne
 
-  - name: Tharaka
+  - name: Ramtin Seyed Tabatabaei
     level: PhD Candidate
-    topic: Haptics for mindfulness
-    enrolled: 2024
-    institution: University of Melbourne
+    primary: true
+    topic: Joint Attention for Assistive Social Robots
+    enrolled: 2023
+    institution: CIS, University of Melbourne
 
-  - name: Farshad
+  - name: Muhammad Bilal
     level: PhD Candidate
-    topic: Shared control for Robot Teleoperation
-    enrolled: 2024
-    institution: University of Melbourne
+    primary: true
+    topic: Training the Trainer in Robots Learning from Demonstrations
+    enrolled: 2023
+    institution: CIS, University of Melbourne
 
-  - name: Enjie
+  - name: "Sarah Schömbs"
     level: PhD Candidate
-    topic: XR for Lower Limb Gait Rehabilitation with Prosthetics
-    enrolled: 2024
-    institution: University of Melbourne
+    primary: true
+    topic: Risk Communication in Human-Agent Interaction
+    enrolled: 2023
+    institution: CIS, University of Melbourne
 
+  - name: Adam Goldin
+    level: PhD Candidate
+    topic: Robot Planning and Reasoning using Projective Consciousness
+    enrolled: 2021
+    institution: CSE, University of New South Wales
 
+past:
+  - name: Ulan Kelesbekov
+    level: MPhil
+    topic: Designing Multi-Purpose Haptic Controllers for Virtual Reality
+    years: "2022 – 2025"
+    institution: CIS, University of Melbourne
 
+  - name: Lina Phaijit
+    level: PhD
+    topic: An AR-based robot training system for novices to teach
+    years: "2021 – 2024"
+    institution: CSE, University of New South Wales
 
-past: []
+  - name: Yu (Carson) Liu
+    level: MPhil
+    primary: true
+    topic: Speech-Driven Gesture Generation for Robots
+    years: "2020 – 2023"
+    institution: CSE, University of New South Wales
