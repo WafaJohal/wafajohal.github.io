@@ -1,50 +1,69 @@
-# Teaching data
+# Teaching data — source of truth: cv_wafajohal/sections/teaching.tex
 
 institutions:
   - name: University of Melbourne
+    years: "2022 – present"
     courses:
-      - code: COMP90082
-        title: Software Project
+      - code: INFO90005
+        title: Human-AI Interaction
         level: postgraduate
-        desc: Capstone subject — industry-partnered software engineering projects in teams.
-        years: "2023 – 2026"
+        desc: Coordinator and Lecturer. Design and evaluation of human-AI systems; interaction paradigms, ethics, and sociotechnical considerations.
+        years: "2022 – present"
         url:
 
-      - code: COMP90055
-        title: Computing Project
-        level: postgraduate
-        desc: Independent research projects supervised by academic staff.
-        years: "2022 – 2026"
-        url:
-
-      - code: COMP30019
-        title: Graphics and Interaction
+      - code: INFO30005
+        title: Advanced Interface Prototyping
         level: undergraduate
-        desc: Fundamentals of 3D graphics, real-time rendering, and interactive system design.
-        years: "2022 – 2025"
+        desc: Lecturer. High-fidelity prototyping techniques for interactive systems; user testing and iterative design.
+        years: "2022 – present"
         url:
 
-      - code: COMP90042
-        title: Natural Language Processing
+      - code: COMP300024
+        title: Artificial Intelligence
+        level: undergraduate
+        desc: Lecturer. Foundations of AI including search, planning, machine learning, and reasoning.
+        years: "2022 – present"
+        url:
+
+  - name: University of New South Wales
+    years: "2019 – 2021"
+    courses:
+      - code: COMP3431
+        title: Robotics Vision and Human-Robot Interaction
+        level: undergraduate
+        desc: Lecturer. Robotic perception, visual processing, and interaction design for HRI.
+        years: "2019 – 2021"
+        url:
+
+      - code: COMP9517
+        title: Image Formation, Image Processing and Feature Extraction
         level: postgraduate
-        desc: Core NLP methods — guest lectures on embodied language understanding.
-        years: "2023"
+        desc: Lecturer. Core computer vision concepts including image formation, filtering, and feature detection.
+        years: "2019 – 2021"
+        url:
+
+      - code: COMP9511
+        title: Human-Computer Interaction
+        level: postgraduate
+        desc: Lecturer. Topics in memory, visual design and evaluation, data acquisition and visualisation for HCI.
+        years: "2019 – 2021"
         url:
 
   - name: EPFL
+    years: "2015 – 2019"
     courses:
-      - code: CS-448
-        title: Sublinear Algorithms for Big Data
-        level: postgraduate
-        desc: Guest lecturer on human-in-the-loop data collection and annotation at scale.
-        years: "2021"
+      - code:
+        title: "Visual Computing: Vision & Graphics"
+        level: undergraduate
+        desc: "AR-game project using processing and various computer vision techniques. Bachelor in Computer Science."
+        years: "2015 – 2019"
         url:
 
-      - code: HUM-432
-        title: How People Learn
-        level: undergraduate
-        desc: Interdisciplinary course on cognitive science, pedagogy, and technology-enhanced learning. Co-taught within the CHILI lab.
-        years: "2019 – 2022"
+      - code:
+        title: Tangible Swarm Interaction
+        level: postgraduate
+        desc: Practical course on tangible swarm robot interaction. Master in Robotics.
+        years: "2015 – 2019"
         url:
 
 topics:
