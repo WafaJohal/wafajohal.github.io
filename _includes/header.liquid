@@ -2,10 +2,14 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      <!-- CHRI Lab logo -->
-      <a class="navbar-brand" href="{{ '/' | relative_url }}">
-        <img src="{{ '/assets/img/chri-logo.png' | relative_url }}" alt="CHRI Lab" class="pv2-nav-logo" />
-      </a>
+      <!-- CHRI Lab logo / name -->
+      {% if page.url == '/' %}
+        <a class="navbar-brand" href="{{ '/' | relative_url }}">
+          <img src="{{ '/assets/img/chri-logo.png' | relative_url }}" alt="CHRI Lab" class="pv2-nav-logo" />
+        </a>
+      {% else %}
+        <a class="navbar-brand pv2-text-brand" href="{{ '/' | relative_url }}">Wafa Johal</a>
+      {% endif %}
 
       <!-- Mobile toggle -->
       <button
